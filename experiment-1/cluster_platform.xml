@@ -3,10 +3,10 @@
 <platform version="4">
   <AS  id="AS0"  routing="Floyd">
     <host id="master" core="1" speed="1e1flops"/>
-    <host id="host-1-1" core="1" speed="2e9flops"/>
-    <host id="host-1-2" core="1" speed="2e9flops"/>
-    <host id="host-2-1" core="1" speed="2e9flops"/>
-    <host id="host-2-2" core="1" speed="2e9flops"/>
+    <host id="host11" core="1" speed="2e9flops"/>
+    <host id="host12" core="1" speed="2e9flops"/>
+    <host id="host21" core="1" speed="2e9flops"/>
+    <host id="host22" core="1" speed="2e9flops"/>
     <router id="switch-1"/>
     <router id="switch-2"/>
 
@@ -18,10 +18,10 @@
     <link id="switch-link-1-2" bandwidth="1MBps" latency="100us"/>
 
     <route src="master" dst="switch-1"><link_ctn id="masterlink"/></route>
-    <route src="host-1-1" dst="switch-1"><link_ctn id="link-1-1"/></route>
-    <route src="host-1-2" dst="switch-1"><link_ctn id="link-1-2"/></route>
-    <route src="host-2-1" dst="switch-2"><link_ctn id="link-2-1"/></route>
-    <route src="host-2-2" dst="switch-2"><link_ctn id="link-2-2"/></route>
+    <route src="host11" dst="switch-1"><link_ctn id="link-1-1"/></route>
+    <route src="host12" dst="switch-1"><link_ctn id="link-1-2"/></route>
+    <route src="host21" dst="switch-2"><link_ctn id="link-2-1"/></route>
+    <route src="host22" dst="switch-2"><link_ctn id="link-2-2"/></route>
     <route src="switch-1" dst="switch-2"><link_ctn id="switch-link-1-2"/></route>
 
   </AS>
