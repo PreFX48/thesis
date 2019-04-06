@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd">
+<platform version="4">
+  <AS  id="AS0"  routing="Floyd">
+    <!-- Rack 1 -->
+    <host id="master" core="1" speed="1e1flops"/>
+    <host id="host-1-1" core="1" speed="2e9flops"/>
+    <host id="host-1-2" core="1" speed="2e9flops"/>
+    <router id="switch-1"/>
+
+    <link id="masterlink" bandwidth="1MBps" latency="100us"/>
+    <link id="link-1-1" bandwidth="1MBps" latency="100us"/>
+    <link id="link-1-2" bandwidth="1MBps" latency="100us"/>
+
+    <route src="master" dst="switch-1"><link_ctn id="masterlink"/></route>
+    <route src="host-1-1" dst="switch-1"><link_ctn id="link-1-1"/></route>
+    <route src="host-1-2" dst="switch-1"><link_ctn id="link-1-2"/></route>
+
+    <!-- Rack 2 -->
+    <host id="host-2-1" core="1" speed="2e9flops"/>
+    <host id="host-2-2" core="1" speed="2e9flops"/>
+    <router id="switch-2"/>
+
+    <link id="link-2-1" bandwidth="1MBps" latency="100us"/>
+    <link id="link-2-2" bandwidth="1MBps" latency="100us"/>
+    
+    <route src="host-2-1" dst="switch-2"><link_ctn id="link-2-1"/></route>
+    <route src="host-2-2" dst="switch-2"><link_ctn id="link-2-2"/></route>
+
+<!-- Inter-rack -->
+    <link id="switch-link-1-2" bandwidth="1MBps" latency="100us"/>
+    <route src="switch-1" dst="switch-2"><link_ctn id="switch-link-1-2"/></route>
+
+  </AS>
+</platform>
