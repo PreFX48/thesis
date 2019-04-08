@@ -18,5 +18,5 @@
   {
     "class": "pysimgrid.simdag.algorithms.Lookahead",
     "name": "Lookahead"
-  },
+  }
 ]
