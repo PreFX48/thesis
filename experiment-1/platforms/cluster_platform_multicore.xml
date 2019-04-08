@@ -10,12 +10,12 @@
     <router id="switch-1"/>
     <router id="switch-2"/>
 
-    <link id="masterlink" bandwidth="1MBps" latency="100us"/>
-    <link id="link-1-1" bandwidth="1MBps" latency="100us"/>
-    <link id="link-1-2" bandwidth="1MBps" latency="100us"/>
-    <link id="link-2-1" bandwidth="1MBps" latency="100us"/>
-    <link id="link-2-2" bandwidth="1MBps" latency="100us"/>
-    <link id="switch-link-1-2" bandwidth="1MBps" latency="100us"/>
+    <link id="masterlink" bandwidth="100MBps" latency="100us"/>
+    <link id="link-1-1" bandwidth="100MBps" latency="100us"/>
+    <link id="link-1-2" bandwidth="100MBps" latency="100us"/>
+    <link id="link-2-1" bandwidth="100MBps" latency="100us"/>
+    <link id="link-2-2" bandwidth="100MBps" latency="100us"/>
+    <link id="switch-link-1-2" bandwidth="100MBps" latency="100us"/>
 
     <route src="master" dst="switch-1"><link_ctn id="masterlink"/></route>
     <route src="host11" dst="switch-1"><link_ctn id="link-1-1"/></route>

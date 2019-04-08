@@ -8,8 +8,8 @@
     <router id="router1"/>
 
     <link id="masterlink" bandwidth="1000000MBps" latency="1us"/>
-    <link id="link1" bandwidth="1MBps" latency="100us"/>
-    <link id="link2" bandwidth="1MBps" latency="100us"/>
+    <link id="link1" bandwidth="100MBps" latency="100us"/>
+    <link id="link2" bandwidth="100MBps" latency="100us"/>
     
     <route src="master" dst="router1"><link_ctn id="masterlink"/></route>
     <route src="host1" dst="router1"><link_ctn id="link1"/></route>
