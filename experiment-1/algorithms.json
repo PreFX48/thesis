@@ -12,31 +12,11 @@
     "name": "MinMin"
   },
   {
-    "class": "pysimgrid.simdag.algorithms.BatchMax",
-    "name": "MaxMin"
-  },
-  {
-    "class": "pysimgrid.simdag.algorithms.BatchSufferage",
-    "name": "Sufferage"
-  },
-  {
-    "class": "pysimgrid.simdag.algorithms.DLS",
-    "name": "DLS"
-  },
-  {
     "class": "pysimgrid.simdag.algorithms.HEFT",
     "name": "HEFT"
-  },
-  {
-    "class": "pysimgrid.simdag.algorithms.HCPT",
-    "name": "HCPT"
   },
   {
     "class": "pysimgrid.simdag.algorithms.Lookahead",
     "name": "Lookahead"
   },
-  {
-    "class": "pysimgrid.simdag.algorithms.PEFT",
-    "name": "PEFT"
-  }
 ]
