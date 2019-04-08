@@ -10,7 +10,7 @@
     <router id="switch-1"/>
     <router id="switch-2"/>
 
-    <link id="masterlink" bandwidth="100MBps" latency="100us"/>
+    <link id="masterlink" bandwidth="1000000MBps" latency="1us"/>
     <link id="link-1-1" bandwidth="100MBps" latency="100us"/>
     <link id="link-1-2" bandwidth="100MBps" latency="100us"/>
     <link id="link-2-1" bandwidth="100MBps" latency="100us"/>
