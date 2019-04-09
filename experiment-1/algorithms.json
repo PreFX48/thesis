@@ -12,6 +12,10 @@
     "name": "MinMin"
   },
   {
+      "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
+      "name": "BatchMC"
+  },
+  {
     "class": "pysimgrid.simdag.algorithms.HEFT",
     "name": "HEFT"
   },
