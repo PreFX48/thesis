@@ -1,6 +1,6 @@
 [
   {
-    "class": "pysimgrid.simdag.algorithms.OLB",
+    "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
     "name": "OLB"
   },
   {
