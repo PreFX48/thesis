@@ -4,12 +4,8 @@
     "name": "OLB"
   },
   {
-    "class": "pysimgrid.simdag.algorithms.BatchMin",
-    "name": "MinMin"
-  },
-  {
       "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-      "name": "BatchMC"
+      "name": "MinMin"
   },
   {
     "class": "pysimgrid.simdag.algorithms.HEFT",
