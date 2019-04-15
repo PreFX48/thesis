@@ -1,0 +1,18 @@
+[
+  {
+    "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
+    "name": "OLB"
+  },
+  {
+      "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
+      "name": "MinMin"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.HEFT",
+    "name": "HEFT"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.Lookahead",
+    "name": "Lookahead"
+  }
+]
