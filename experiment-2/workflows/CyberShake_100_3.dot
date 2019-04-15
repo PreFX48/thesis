@@ -191,7 +191,7 @@ digraph DAG {
   root -> ID00056 [size="3.696247e+09"];
   root -> ID00013 [size="2.558555e+09"];
   root -> ID00058 [size="2.940740e+09"];
-  root -> ID00047 [size="3.532819e+13"];
+  root -> ID00047 [size="3.532819e+10"];
   root -> ID00005 [size="2.079402e+09"];
   root -> ID00076 [size="2.697152e+09"];
   root -> ID00062 [size="4.264697e+09"];
@@ -209,7 +209,7 @@ digraph DAG {
   root -> ID00025 [size="3.465122e+09"];
   root -> ID00080 [size="3.150526e+09"];
   root -> ID00070 [size="1.735795e+09"];
-  root -> ID00002 [size="3.486957e+13"];
+  root -> ID00002 [size="3.486957e+10"];
   root -> ID00060 [size="2.620416e+09"];
   ID00066 -> ID00067 [size="2.066166e+07"];
   ID00066 -> ID00001 [size="2.066166e+07"];
