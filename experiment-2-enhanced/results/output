@@ -1,522 +1,522 @@
 [
     {
-        "exec_time": 37.0,
-        "makespan": 1267.3425806659777,
-        "expected_makespan": NaN,
-        "sched_time": 0.010564804077148438,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "comm_time": 3987.7506282453114,
-        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "comm_time": 20565.900953273904,
+        "sched_time": 0.02577352523803711,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 50.0,
+        "makespan": 4568.224300845361,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 1267.3425806659777,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "comm_time": 3987.7506282453114,
-        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "comm_time": 17989.612293480088,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 50.0,
+        "makespan": 4022.9858864432986,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 200.47413535998254,
+        "sched_time": 0.30907273292541504,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 4696.881,
+        "makespan": 1008.6840047658798,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 77295.86102807993,
+        "sched_time": 0.26967692375183105,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 4696.881,
+        "makespan": 16421.228436325975,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 200.4408412239,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 4696.881,
+        "makespan": 1008.6840047658798,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 168.6740228938199,
+        "sched_time": 0.037010908126831055,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 50.0,
+        "makespan": 48.0609616060096,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 171.70042451081858,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 50.0,
+        "makespan": 43.8106287113402,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 68532.01102485743,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_3.xml",
+        "exec_time": 4696.8809999999985,
+        "makespan": 13443.647633844022,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 10728.543814733544,
+        "sched_time": 0.050226449966430664,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 50.0,
+        "makespan": 3141.4696416858706,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 23620.36734293957,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 50.0,
+        "makespan": 5182.288383344868,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 244.3644145878065,
+        "sched_time": 0.4997866153717041,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 4696.881,
+        "makespan": 1000.8290406476502,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 121773.71199949803,
+        "sched_time": 0.4407618045806885,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 4696.881000000015,
+        "makespan": 21626.101728622205,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 244.3644145878065,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 4696.881,
+        "makespan": 1000.8290406476502,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 186.61101062250034,
+        "sched_time": 0.026575088500976562,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 50.0,
+        "makespan": 43.01678171336687,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 144.1963930772554,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 50.0,
+        "makespan": 46.27171596235871,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 17980.020067479985,
+        "sched_time": 0.018047809600830078,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "exec_time": 50.0,
+        "makespan": 5859.690771010309,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 17957.43955104484,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "exec_time": 50.0,
+        "makespan": 5859.690771010309,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 100314.55603667496,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_6.xml",
+        "exec_time": 4696.881000000011,
+        "makespan": 22603.492333566082,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 127.21482970381801,
+        "sched_time": 0.26351308822631836,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
         "exec_time": 4696.881000000001,
         "makespan": 1361.8173894282759,
         "expected_makespan": NaN,
-        "sched_time": 0.27617526054382324,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 127.21482970381801,
-        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "exec_time": 4696.881000000001,
-        "makespan": 1362.6104626882334,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 127.21482970381801,
-        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
-    },
-    {
-        "exec_time": 4696.881000000003,
-        "makespan": 17021.469672595118,
-        "expected_makespan": NaN,
-        "sched_time": 0.31996965408325195,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
         "comm_time": 56776.136972939006,
+        "sched_time": 0.2684519290924072,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "exec_time": 4696.881000000003,
+        "makespan": 17021.469672595118,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 26.8124171465201,
-        "expected_makespan": NaN,
-        "sched_time": 0.017717599868774414,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 35.60888472199727,
-        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 26.121914694147723,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "comm_time": 28.420917380377176,
+        "comm_time": 127.21482970381801,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "exec_time": 4696.881000000001,
+        "makespan": 1362.6104626882334,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
+    },
+    {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 192.03202103598824,
+        "sched_time": 0.017225265502929688,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "exec_time": 50.0,
+        "makespan": 68.92671271269819,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "exec_time": 4696.881000000006,
-        "makespan": 16965.469438059034,
-        "expected_makespan": NaN,
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 192.03202103598824,
         "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "exec_time": 50.0,
+        "makespan": 68.92671271269819,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
+    },
+    {
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
         "comm_time": 56166.23988270302,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "exec_time": 4696.881000000006,
+        "makespan": 16965.469438059034,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 839.5600470377074,
-        "expected_makespan": NaN,
-        "sched_time": 0.009912729263305664,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "comm_time": 2175.8056730436815,
+        "comm_time": 9112.047219314381,
+        "sched_time": 0.01505136489868164,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "exec_time": 50.0,
+        "makespan": 2608.765488597938,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 839.5600470377074,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "comm_time": 2175.8056730436815,
+        "comm_time": 9112.047219314381,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "exec_time": 50.0,
+        "makespan": 2608.765488597938,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 59.1755177429567,
+        "sched_time": 0.2087717056274414,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
         "exec_time": 4696.881000000001,
         "makespan": 1328.610873211446,
         "expected_makespan": NaN,
-        "sched_time": 0.20750904083251953,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 59.1755177429567,
-        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "exec_time": 4696.881000000001,
-        "makespan": 1328.023368592972,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
         "comm_time": 59.1755177429567,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "exec_time": 4696.881000000001,
+        "makespan": 1328.023368592972,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "exec_time": 4696.880999999997,
-        "makespan": 14057.50936126411,
-        "expected_makespan": NaN,
-        "sched_time": 0.2270030975341797,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
         "comm_time": 51497.729438251125,
+        "sched_time": 0.20182299613952637,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "exec_time": 4696.880999999997,
+        "makespan": 14057.50936126411,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 23.89784952187099,
-        "expected_makespan": NaN,
-        "sched_time": 0.008384227752685547,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "comm_time": 18.24488659776219,
+        "comm_time": 80.98365036344137,
+        "sched_time": 0.014008283615112305,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "exec_time": 50.0,
+        "makespan": 33.709209872222914,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "exec_time": 4696.8809999999985,
-        "makespan": 14078.47402544661,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
         "comm_time": 51027.60507948825,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "exec_time": 4696.8809999999985,
+        "makespan": 14078.47402544661,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 23.89784952187099,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "comm_time": 18.24488659776219,
+        "comm_time": 82.17575295242823,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "exec_time": 50.0,
+        "makespan": 34.480584028642404,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 859.2873757334822,
-        "expected_makespan": NaN,
-        "sched_time": 0.010540962219238281,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "comm_time": 2285.7166244132054,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 761.0000279811018,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 1917.4051303031179,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
-    },
-    {
-        "exec_time": 4696.881000000001,
-        "makespan": 1361.2054471880697,
-        "expected_makespan": NaN,
-        "sched_time": 0.2388162612915039,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 124.92109673577562,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
-    },
-    {
-        "exec_time": 4696.880999999998,
-        "makespan": 16019.195330903356,
-        "expected_makespan": NaN,
-        "sched_time": 0.23899221420288086,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 54508.551184255746,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
-    },
-    {
-        "exec_time": 4696.881000000001,
-        "makespan": 1361.9520641872023,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 124.92109673577562,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 25.72473891971598,
-        "expected_makespan": NaN,
-        "sched_time": 0.010352611541748047,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 35.05723960859519,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 25.66687542669234,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 25.983701438837826,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
-    },
-    {
-        "exec_time": 4696.880999999998,
-        "makespan": 13734.318536128174,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 50412.721057507966,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 1071.5861519545956,
-        "expected_makespan": NaN,
-        "sched_time": 0.023395299911499023,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 1917.4051303031176,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 1071.5861519545956,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 1917.4051303031176,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
-    },
-    {
-        "exec_time": 4696.881000000001,
-        "makespan": 1390.3586039828285,
-        "expected_makespan": NaN,
-        "sched_time": 0.31756114959716797,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 199.19031941058682,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
-    },
-    {
-        "exec_time": 4696.881000000022,
-        "makespan": 24863.70627660892,
-        "expected_makespan": NaN,
-        "sched_time": 0.3062918186187744,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 82902.15550482018,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
-    },
-    {
-        "exec_time": 4696.881000000001,
-        "makespan": 1386.4105747560243,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 194.49567318465,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 29.561496975479237,
-        "expected_makespan": NaN,
-        "sched_time": 0.014937162399291992,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 30.204449506245606,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
-    },
-    {
-        "exec_time": 4696.881000000018,
-        "makespan": 24816.672603171595,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 83526.89234678666,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 29.561496975479237,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 30.204449506245606,
-        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
-    },
-    {
-        "exec_time": 37.0,
-        "makespan": 1200.7872487999564,
-        "expected_makespan": NaN,
-        "sched_time": 0.016147136688232422,
-        "algorithm": {
-            "name": "MinMin",
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
-        },
-        "comm_time": 2175.808624993839,
+        "comm_time": 23534.753177313472,
+        "sched_time": 0.024723291397094727,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 50.0,
+        "makespan": 5956.829757352101,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 1200.7872487999564,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "comm_time": 2175.808624993839,
+        "comm_time": 16346.186072157565,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 50.0,
+        "makespan": 4924.092253352534,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "exec_time": 4696.881000000001,
-        "makespan": 1389.7089078225642,
-        "expected_makespan": NaN,
-        "sched_time": 0.3851616382598877,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
         "comm_time": 229.17822909427528,
+        "sched_time": 0.3273606300354004,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 4696.881000000001,
+        "makespan": 1389.7089078225642,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "exec_time": 4696.881000000027,
-        "makespan": 26415.45422397772,
-        "expected_makespan": NaN,
-        "sched_time": 0.3097689151763916,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
         "comm_time": 89992.04053227439,
+        "sched_time": 0.31124114990234375,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 4696.881000000027,
+        "makespan": 26415.45422397772,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "exec_time": 4696.881000000001,
-        "makespan": 1377.363483762864,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
         "comm_time": 216.08940524368387,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 4696.881000000001,
+        "makespan": 1377.363483762864,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 30.808498377377553,
-        "expected_makespan": NaN,
-        "sched_time": 0.014526844024658203,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "comm_time": 41.93288463249196,
+        "comm_time": 297.445713004715,
+        "sched_time": 0.027661561965942383,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 50.0,
+        "makespan": 83.5573640424841,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "exec_time": 37.0,
-        "makespan": 30.808498377377553,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
-        "algorithm": {
-            "name": "EnhancedMinMin",
-            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
-        },
-        "comm_time": 41.93288463249198,
-        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
-        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
-    },
-    {
-        "exec_time": 4696.881000000015,
-        "makespan": 26415.32285561201,
-        "expected_makespan": NaN,
-        "sched_time": -1.0,
         "algorithm": {
             "name": "EnhancedMinMin",
             "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
         "comm_time": 88807.51177644925,
+        "sched_time": -1.0,
         "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 4696.881000000015,
+        "makespan": 26415.32285561201,
+        "expected_makespan": NaN,
         "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
+    },
+    {
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 217.21362102406664,
+        "sched_time": -1.0,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "exec_time": 50.0,
+        "makespan": 70.94578417165808,
+        "expected_makespan": NaN,
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     }
 ]

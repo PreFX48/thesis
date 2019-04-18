@@ -1,0 +1,10 @@
+[
+  {
+      "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
+      "name": "MinMin"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin",
+    "name": "EnhancedMinMin"
+  }
+]
