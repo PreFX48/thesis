@@ -1,1042 +1,522 @@
 [
     {
-        "comm_time": 6021.496299679898,
-        "sched_time": 0.00445556640625,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 1551.5785784279365,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 3987.7506282453114,
-        "sched_time": 0.011190414428710938,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
         "exec_time": 37.0,
         "makespan": 1267.3425806659777,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.010564804077148438,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 3987.7506282453114,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 2175.8056730436815,
-        "sched_time": 0.005213260650634766,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
         "exec_time": 37.0,
-        "makespan": 813.0930245784706,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
+        "makespan": 1267.3425806659777,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 361.0649
+        "comm_time": 3987.7506282453114,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 2175.8056730436815,
-        "sched_time": 0.011065244674682617,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 813.0930245784706,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
-        },
-        "expected_makespan": 361.0649
-    },
-    {
-        "comm_time": 230.92463118067823,
-        "sched_time": 0.1610264778137207,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1328.5960170869655,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 127.21482970381801,
-        "sched_time": 0.22767353057861328,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
         "exec_time": 4696.881000000001,
         "makespan": 1361.8173894282759,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.27617526054382324,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 127.21482970381801,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 1617.181545426367,
-        "sched_time": 0.07470130920410156,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1314.6383961065371,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
+        "exec_time": 4696.881000000001,
+        "makespan": 1362.6104626882334,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 1296.3574546199998
+        "comm_time": 127.21482970381801,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 1760.092912108316,
-        "sched_time": 0.956092357635498,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881000000002,
-        "makespan": 1352.1409195677554,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
-        },
-        "expected_makespan": 1238.6547818200002
-    },
-    {
-        "comm_time": 114072.15643402009,
-        "sched_time": 0.14178013801574707,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.88100000002,
-        "makespan": 34096.46916745135,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 56776.136972939006,
-        "sched_time": 0.26062512397766113,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
         "exec_time": 4696.881000000003,
         "makespan": 17021.469672595118,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.31996965408325195,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 56776.136972939006,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "comm_time": 125338.32980378647,
-        "sched_time": 0.06470489501953125,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.881000000001,
-        "makespan": 4857.016848114496,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
-        },
-        "expected_makespan": 1639.559429
-    },
-    {
-        "comm_time": 51.67036769766904,
-        "sched_time": 0.004526615142822266,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 42.139379952301994,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 35.60888472199727,
-        "sched_time": 0.010846376419067383,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
         "makespan": 26.8124171465201,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 125341.77153678384,
-        "sched_time": 0.8923835754394531,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.880999999998,
-        "makespan": 4855.678907388814,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 1637.9321048199997
-    },
-    {
-        "comm_time": 24.48479229704177,
-        "sched_time": 0.004088401794433594,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 23.34343750440111,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
-        },
-        "expected_makespan": 21.1004
-    },
-    {
-        "comm_time": 25.97583743635021,
-        "sched_time": 0.010647058486938477,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 24.389622243356936,
-        "platform": "../thesis/experiment-2/platforms/platform_rack.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
-        },
-        "expected_makespan": 19.1004
-    },
-    {
-        "comm_time": 2175.8056730436815,
-        "sched_time": 0.0047149658203125,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 839.5600470377074,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 2175.8056730436815,
-        "sched_time": 0.009997844696044922,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 839.5600470377074,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.017717599868774414,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 35.60888472199727,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 2175.8056730436815,
-        "sched_time": 0.0038633346557617188,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
         "exec_time": 37.0,
-        "makespan": 813.0930245784705,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "makespan": 26.121914694147723,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 361.0649
+        "comm_time": 28.420917380377176,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 2175.8056730436815,
-        "sched_time": 0.006622791290283203,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
+        "exec_time": 4696.881000000006,
+        "makespan": 16965.469438059034,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 56166.23988270302,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_rack.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
+    },
+    {
         "exec_time": 37.0,
-        "makespan": 813.0930245784705,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "makespan": 839.5600470377074,
+        "expected_makespan": NaN,
+        "sched_time": 0.009912729263305664,
         "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": 361.0649
+        "comm_time": 2175.8056730436815,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 59.219370072859945,
-        "sched_time": 0.2733604907989502,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1288.3901253566269,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "exec_time": 37.0,
+        "makespan": 839.5600470377074,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 2175.8056730436815,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 59.1755177429567,
-        "sched_time": 0.30623364448547363,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
         "exec_time": 4696.881000000001,
         "makespan": 1328.610873211446,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.20750904083251953,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 59.1755177429567,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 145.75091576459943,
-        "sched_time": 0.06391787528991699,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
         "exec_time": 4696.881000000001,
-        "makespan": 1293.1889687566722,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "makespan": 1328.023368592972,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 1540.3354546199998
+        "comm_time": 59.1755177429567,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 145.75091576460062,
-        "sched_time": 0.4258608818054199,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1308.1617254139007,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 1298.89845462
-    },
-    {
-        "comm_time": 51272.960203199604,
-        "sched_time": 0.16013383865356445,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.8809999999985,
-        "makespan": 14137.774832565925,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 51497.729438251125,
-        "sched_time": 0.21423745155334473,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
         "exec_time": 4696.880999999997,
         "makespan": 14057.50936126411,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.2270030975341797,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 51497.729438251125,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "comm_time": 125328.79667858312,
-        "sched_time": 0.08450102806091309,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.881000000001,
-        "makespan": 4765.010053986826,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
-        "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
-        },
-        "expected_makespan": 1889.724229
-    },
-    {
-        "comm_time": 125328.79667858312,
-        "sched_time": 1.4420278072357178,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.881000000001,
-        "makespan": 4850.3225159985,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
-        },
-        "expected_makespan": 1647.20590482
-    },
-    {
-        "comm_time": 18.24488659776219,
-        "sched_time": 0.01737070083618164,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 23.279520535823707,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 18.24488659776219,
-        "sched_time": 0.008406877517700195,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
         "makespan": 23.89784952187099,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.008384227752685547,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 18.24488659776219,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 18.244886597762175,
-        "sched_time": 0.00379180908203125,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 22.851664782915165,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "exec_time": 4696.8809999999985,
+        "makespan": 14078.47402544661,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 19.6004
+        "comm_time": 51027.60507948825,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "comm_time": 18.244886597762175,
-        "sched_time": 0.011002063751220703,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
-        "makespan": 22.889622243356936,
-        "platform": "../thesis/experiment-2/platforms/platform_host.xml",
+        "makespan": 23.89784952187099,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 16.6004
+        "comm_time": 18.24488659776219,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_host.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 4615.976037195476,
-        "sched_time": 0.0044193267822265625,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 1325.6485029490293,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 2285.7166244132054,
-        "sched_time": 0.017488956451416016,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
         "exec_time": 37.0,
         "makespan": 859.2873757334822,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.010540962219238281,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 2285.7166244132054,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 2175.8004690436815,
-        "sched_time": 0.006517171859741211,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
         "exec_time": 37.0,
-        "makespan": 813.0904225784706,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "makespan": 761.0000279811018,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 361.0647
+        "comm_time": 1917.4051303031179,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 2175.8004690436815,
-        "sched_time": 0.013628244400024414,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 813.0904225784706,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 361.0647
-    },
-    {
-        "comm_time": 227.099421248794,
-        "sched_time": 0.15130352973937988,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881000000002,
-        "makespan": 1328.3195480275058,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 124.92109673577562,
-        "sched_time": 0.2187957763671875,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
         "exec_time": 4696.881000000001,
         "makespan": 1361.2054471880697,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.2388162612915039,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 124.92109673577562,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 1571.7610136428593,
-        "sched_time": 0.060660362243652344,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1313.1694941158155,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
-        },
-        "expected_makespan": 1296.3572546199998
-    },
-    {
-        "comm_time": 1714.7759958423337,
-        "sched_time": 0.9239811897277832,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1350.694227079611,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 1238.6545818200002
-    },
-    {
-        "comm_time": 107611.87039703161,
-        "sched_time": 0.1608133316040039,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.881000000014,
-        "makespan": 32490.708257843107,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 54508.551184255746,
-        "sched_time": 0.34163570404052734,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
         "exec_time": 4696.880999999998,
         "makespan": 16019.195330903356,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.23899221420288086,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 54508.551184255746,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "comm_time": 86772.17328915355,
-        "sched_time": 0.07112741470336914,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.880999999999,
-        "makespan": 3577.126123057963,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "exec_time": 4696.881000000001,
+        "makespan": 1361.9520641872023,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 1639.559229
+        "comm_time": 124.92109673577562,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 48.62946384048358,
-        "sched_time": 0.00504612922668457,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 41.59163783889993,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 35.05723960859519,
-        "sched_time": 0.017200708389282227,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
         "makespan": 25.72473891971598,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.010352611541748047,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 35.05723960859519,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 86775.79584722206,
-        "sched_time": 0.9446909427642822,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.880999999999,
-        "makespan": 3572.686046804251,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
-        },
-        "expected_makespan": 1637.9319048199998
-    },
-    {
-        "comm_time": 23.38670607023765,
-        "sched_time": 0.00529170036315918,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
-        "makespan": 23.340835504401113,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "makespan": 25.66687542669234,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 21.1002
+        "comm_time": 25.983701438837826,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 20.953927548010604,
-        "sched_time": 0.009949207305908203,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 23.30454601655281,
-        "platform": "../thesis/experiment-2/platforms/simple_2.xml",
+        "exec_time": 4696.880999999998,
+        "makespan": 13734.318536128174,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 19.1002
+        "comm_time": 50412.721057507966,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_2.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "comm_time": 5586.476372985242,
-        "sched_time": 0.004492282867431641,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 3153.157253232432,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 1917.4051303031176,
-        "sched_time": 0.017481088638305664,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
         "exec_time": 37.0,
         "makespan": 1071.5861519545956,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.023395299911499023,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 1917.4051303031176,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 2175.800469043681,
-        "sched_time": 0.005768775939941406,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
         "exec_time": 37.0,
-        "makespan": 816.5904225784705,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
+        "makespan": 1071.5861519545956,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 361.0647
+        "comm_time": 1917.4051303031176,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
     },
     {
-        "comm_time": 2175.800469043681,
-        "sched_time": 0.030941247940063477,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 816.5904225784705,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
-        },
-        "expected_makespan": 361.0647
-    },
-    {
-        "comm_time": 239.7509243998391,
-        "sched_time": 0.1726527214050293,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1336.0675122715231,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 199.19031941058682,
-        "sched_time": 0.3039395809173584,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
         "exec_time": 4696.881000000001,
         "makespan": 1390.3586039828285,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.31756114959716797,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 199.19031941058682,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 1405.7855165939282,
-        "sched_time": 0.10018777847290039,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1316.017967071134,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
-        },
-        "expected_makespan": 1287.49525462
-    },
-    {
-        "comm_time": 127368.16920807151,
-        "sched_time": 0.17210745811462402,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.881000000018,
-        "makespan": 33347.72587858561,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 1454.1401789131542,
-        "sched_time": 2.0403051376342773,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881000000001,
-        "makespan": 1318.9700594448457,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 1277.6305818199999
-    },
-    {
-        "comm_time": 82902.15550482018,
-        "sched_time": 0.33587169647216797,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
         "exec_time": 4696.881000000022,
         "makespan": 24863.70627660892,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.3062918186187744,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 82902.15550482018,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "comm_time": 86778.21490257484,
-        "sched_time": 0.07267522811889648,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.880999999998,
-        "makespan": 4670.8190148127105,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
+        "exec_time": 4696.881000000001,
+        "makespan": 1386.4105747560243,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 2759.9829048200004
+        "comm_time": 194.49567318465,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 59.737937618703675,
-        "sched_time": 0.005102634429931641,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 42.81974296261127,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 30.204449506245606,
-        "sched_time": 0.014696121215820312,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
         "makespan": 29.561496975479237,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 86783.7597545749,
-        "sched_time": 2.053453207015991,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.880999999999,
-        "makespan": 4670.8190148127105,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 2759.9829048200004
-    },
-    {
-        "comm_time": 31.771416288355475,
-        "sched_time": 0.004157543182373047,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 25.235935170823502,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
-        },
-        "expected_makespan": 23.4005
-    },
-    {
-        "comm_time": 37.0063428025297,
-        "sched_time": 0.024426698684692383,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 28.62475134053327,
-        "platform": "../thesis/experiment-2/platforms/simple_4.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
-        },
-        "expected_makespan": 21.1004
-    },
-    {
-        "comm_time": 10162.682948807644,
-        "sched_time": 0.010009527206420898,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 4248.8517419137725,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 2175.808624993839,
-        "sched_time": 0.016853809356689453,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 1200.7872487999564,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 2175.805673043681,
-        "sched_time": 0.00724029541015625,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 816.5930245784705,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
-        },
-        "expected_makespan": 361.0649
-    },
-    {
-        "comm_time": 2175.805673043681,
-        "sched_time": 0.0272061824798584,
-        "tasks": "../thesis/experiment-2/workflows/complex_2.dot",
-        "exec_time": 37.0,
-        "makespan": 816.5930245784705,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 361.0649
-    },
-    {
-        "comm_time": 280.17512480893515,
-        "sched_time": 0.1470346450805664,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1345.4323441549018,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "name": "OLB",
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 229.17822909427528,
-        "sched_time": 0.3354909420013428,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881000000001,
-        "makespan": 1389.7089078225642,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 3814.8072358030045,
-        "sched_time": 0.10840678215026855,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1384.6287796871134,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.HEFT",
-            "name": "HEFT"
-        },
-        "expected_makespan": 1287.49545462
-    },
-    {
-        "comm_time": 254519.32977491012,
-        "sched_time": 0.14409804344177246,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.881000000014,
-        "makespan": 66426.95880281502,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
-        },
-        "expected_makespan": NaN
-    },
-    {
-        "comm_time": 3802.221963876866,
-        "sched_time": 2.032712459564209,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_0.dot",
-        "exec_time": 4696.881,
-        "makespan": 1387.275455394742,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
-        "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
-        },
-        "expected_makespan": 1277.6307818199998
-    },
-    {
-        "comm_time": 89992.04053227439,
-        "sched_time": 0.33949971199035645,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.881000000027,
-        "makespan": 26415.45422397772,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.014937162399291992,
         "algorithm": {
             "name": "MinMin",
             "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 30.204449506245606,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 125351.92086180138,
-        "sched_time": 0.06897091865539551,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
-        "exec_time": 4696.880999999999,
-        "makespan": 5813.660754957039,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
+        "exec_time": 4696.881000000018,
+        "makespan": 24816.672603171595,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 2759.98310482
+        "comm_time": 83526.89234678666,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     },
     {
-        "comm_time": 108.752136884366,
-        "sched_time": 0.005264997482299805,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
-        "makespan": 58.61876139560097,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
+        "makespan": 29.561496975479237,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-            "name": "OLB"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 30.204449506245606,
+        "platform": "../thesis/experiment-2-enhanced/platforms/simple_4.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 125349.58302531931,
-        "sched_time": 1.921201229095459,
-        "tasks": "../thesis/experiment-2/workflows/CyberShake_100_3.dot",
+        "exec_time": 37.0,
+        "makespan": 1200.7872487999564,
+        "expected_makespan": NaN,
+        "sched_time": 0.016147136688232422,
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 2175.808624993839,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
+    },
+    {
+        "exec_time": 37.0,
+        "makespan": 1200.7872487999564,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 2175.808624993839,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_2.dot"
+    },
+    {
         "exec_time": 4696.881000000001,
-        "makespan": 5837.742831571394,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
+        "makespan": 1389.7089078225642,
+        "expected_makespan": NaN,
+        "sched_time": 0.3851616382598877,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.Lookahead",
-            "name": "Lookahead"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": 2759.98310482
+        "comm_time": 229.17822909427528,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
     },
     {
-        "comm_time": 41.93288463249196,
-        "sched_time": 0.01583576202392578,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
+        "exec_time": 4696.881000000027,
+        "makespan": 26415.45422397772,
+        "expected_makespan": NaN,
+        "sched_time": 0.3097689151763916,
+        "algorithm": {
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
+        },
+        "comm_time": 89992.04053227439,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
+    },
+    {
+        "exec_time": 4696.881000000001,
+        "makespan": 1377.363483762864,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
+        "algorithm": {
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
+        },
+        "comm_time": 216.08940524368387,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_0.dot"
+    },
+    {
         "exec_time": 37.0,
         "makespan": 30.808498377377553,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
+        "expected_makespan": NaN,
+        "sched_time": 0.014526844024658203,
         "algorithm": {
-            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
-            "name": "MinMin"
+            "name": "MinMin",
+            "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin"
         },
-        "expected_makespan": NaN
+        "comm_time": 41.93288463249196,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 55.611900438636866,
-        "sched_time": 0.004170894622802734,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
         "exec_time": 37.0,
-        "makespan": 28.09231597160141,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
+        "makespan": 30.808498377377553,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "HEFT",
-            "class": "pysimgrid.simdag.algorithms.HEFT"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 23.4012
+        "comm_time": 41.93288463249198,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/complex_0.dot"
     },
     {
-        "comm_time": 62.80133988836073,
-        "sched_time": 0.024422645568847656,
-        "tasks": "../thesis/experiment-2/workflows/complex_0.dot",
-        "exec_time": 37.0,
-        "makespan": 31.11485385359904,
-        "platform": "../thesis/experiment-2/platforms/platform_cluster.xml",
+        "exec_time": 4696.881000000015,
+        "makespan": 26415.32285561201,
+        "expected_makespan": NaN,
+        "sched_time": -1.0,
         "algorithm": {
-            "name": "Lookahead",
-            "class": "pysimgrid.simdag.algorithms.Lookahead"
+            "name": "EnhancedMinMin",
+            "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin"
         },
-        "expected_makespan": 21.1008
+        "comm_time": 88807.51177644925,
+        "platform": "../thesis/experiment-2-enhanced/platforms/platform_cluster.xml",
+        "tasks": "../thesis/experiment-2-enhanced/workflows/CyberShake_100_3.dot"
     }
 ]
