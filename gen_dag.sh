@@ -1,0 +1,3 @@
+DAGGEN_PATH=/root/daggen/daggen python3 -m pysimgrid.tools.dag_gen -n 100 --density 0.2 0.5 0.8 --ccr 10 --repeat 20 ../thesis/experiment-3/workflows
+DAGGEN_PATH=/root/daggen/daggen python3 -m pysimgrid.tools.dag_gen -n 100 --regular 0.5 0.7 0.9 --ccr 10 --repeat 20 ../thesis/experiment-3/workflows
+DAGGEN_PATH=/root/daggen/daggen python3 -m pysimgrid.tools.dag_gen -n 100 --fat 0.2 0.5 0.8 --ccr 10 --repeat 20 ../thesis/experiment-3/workflows
