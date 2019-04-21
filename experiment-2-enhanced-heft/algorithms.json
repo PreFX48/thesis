@@ -6,5 +6,9 @@
   {
     "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
     "name": "EHEFT"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+    "name": "Lookahead"
   }
 ]
