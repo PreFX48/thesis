@@ -1,0 +1,10 @@
+[
+  {
+      "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+      "name": "HEFT"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+    "name": "EHEFT"
+  }
+]
