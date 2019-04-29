@@ -1,0 +1,20 @@
+[
+  {
+      "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+      "name": "HEFT"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+    "data-transfer-mode": "EAGER",
+    "name": "EHEFT"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+    "data-transfer-mode": "EAGER_CACHING",
+    "name": "EHEFT_caching"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+    "name": "Lookahead"
+  }
+]

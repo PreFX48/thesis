@@ -1,0 +1,1042 @@
+[
+    {
+        "expected_makespan": 1111.5002,
+        "exec_time": 50.4000000315001,
+        "sched_time": 0.005742311477661133,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 8409.844741211944,
+        "makespan": 2618.366464358478
+    },
+    {
+        "expected_makespan": 4620.2501,
+        "exec_time": 50.400000031501236,
+        "sched_time": 0.01804065704345703,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 19185.203541925177,
+        "makespan": 3459.0258377554605
+    },
+    {
+        "expected_makespan": 1111.5002,
+        "exec_time": 50.4000000315001,
+        "sched_time": 0.04092717170715332,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 8409.844741211944,
+        "makespan": 2618.366464358478
+    },
+    {
+        "expected_makespan": 2007.0001,
+        "exec_time": 50.400000027249575,
+        "sched_time": 0.2603745460510254,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 7468.929030924858,
+        "makespan": 1629.7936488265411
+    },
+    {
+        "expected_makespan": 878.39958182,
+        "exec_time": 4697.081000296393,
+        "sched_time": 0.09228324890136719,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 1209.8128332034207,
+        "makespan": 1059.9554213827375
+    },
+    {
+        "expected_makespan": 962.8938441200002,
+        "exec_time": 4697.081000308807,
+        "sched_time": 0.8884367942810059,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 1661.4914998104496,
+        "makespan": 1024.8963925045914
+    },
+    {
+        "expected_makespan": 827.8315818200001,
+        "exec_time": 4697.081000312397,
+        "sched_time": 1.596491813659668,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 2018.666594586913,
+        "makespan": 1014.9866206692806
+    },
+    {
+        "expected_makespan": 1631.29590482,
+        "exec_time": 4697.081000447668,
+        "sched_time": 0.0681304931640625,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 86775.9948322741,
+        "makespan": 3568.73733242618
+    },
+    {
+        "expected_makespan": 1984.57770482,
+        "exec_time": 4697.081000448417,
+        "sched_time": 0.6798536777496338,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 86775.87820821264,
+        "makespan": 3568.7373324261794
+    },
+    {
+        "expected_makespan": 1631.29590482,
+        "exec_time": 4697.081000434595,
+        "sched_time": 1.3484771251678467,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 86788.72014759335,
+        "makespan": 3568.737332416346
+    },
+    {
+        "expected_makespan": 1984.57770482,
+        "exec_time": 4697.081000438173,
+        "sched_time": 121.70186805725098,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 86785.66971442697,
+        "makespan": 3568.7373324163455
+    },
+    {
+        "expected_makespan": 30.0003,
+        "exec_time": 50.40000002925003,
+        "sched_time": 0.006886959075927734,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 187.4890300266776,
+        "makespan": 58.70946467995433
+    },
+    {
+        "expected_makespan": 51.308433333333326,
+        "exec_time": 50.40000003750003,
+        "sched_time": 0.010345935821533203,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 116.00592972531022,
+        "makespan": 37.2804940695807
+    },
+    {
+        "expected_makespan": 22.5004,
+        "exec_time": 50.400000026749986,
+        "sched_time": 0.03786778450012207,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 153.2012540062491,
+        "makespan": 37.09287778586121
+    },
+    {
+        "expected_makespan": 29.0001,
+        "exec_time": 50.40000004050004,
+        "sched_time": 0.23792076110839844,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 75.29065125064538,
+        "makespan": 31.104098091846968
+    },
+    {
+        "expected_makespan": 1123.5002,
+        "exec_time": 50.40000005649915,
+        "sched_time": 0.007734537124633789,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 9108.047934930677,
+        "makespan": 2608.864382749946
+    },
+    {
+        "expected_makespan": 3508.0001,
+        "exec_time": 50.40000004850063,
+        "sched_time": 0.017805814743041992,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 20057.893091744838,
+        "makespan": 2710.2900554673333
+    },
+    {
+        "expected_makespan": 1115.0002,
+        "exec_time": 50.40000004349952,
+        "sched_time": 0.10735368728637695,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 15090.476961280254,
+        "makespan": 2608.864382749946
+    },
+    {
+        "expected_makespan": 1810.0001,
+        "exec_time": 50.40000005649915,
+        "sched_time": 1.0460374355316162,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 9108.047934930677,
+        "makespan": 2608.864382749946
+    },
+    {
+        "expected_makespan": 942.8171418200002,
+        "exec_time": 4697.08100034424,
+        "sched_time": 0.06373357772827148,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 1122.5010873886245,
+        "makespan": 978.2832523416203
+    },
+    {
+        "expected_makespan": 948.5507641200002,
+        "exec_time": 4697.0810003573115,
+        "sched_time": 1.9290740489959717,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 1172.0031086035597,
+        "makespan": 978.2589403710017
+    },
+    {
+        "expected_makespan": 920.6089876199998,
+        "exec_time": 4697.081000334259,
+        "sched_time": 3.64491868019104,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 1340.1653696729927,
+        "makespan": 948.1661799680085
+    },
+    {
+        "expected_makespan": 867.36484412,
+        "exec_time": 4697.081000286227,
+        "sched_time": 160.07675504684448,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_3.xml",
+        "comm_time": 1558.75943557743,
+        "makespan": 1040.1996878396772
+    },
+    {
+        "expected_makespan": 2759.9829048200004,
+        "exec_time": 4697.081000755061,
+        "sched_time": 0.06389451026916504,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 86778.26251966524,
+        "makespan": 4670.924869410955
+    },
+    {
+        "expected_makespan": 3113.2647048200006,
+        "exec_time": 4697.081000755061,
+        "sched_time": 1.5121240615844727,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 86778.26251966524,
+        "makespan": 4670.924869410955
+    },
+    {
+        "expected_makespan": 2759.9829048200004,
+        "exec_time": 4697.081000857081,
+        "sched_time": 3.663111686706543,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 86783.8073716653,
+        "makespan": 4670.924869410962
+    },
+    {
+        "expected_makespan": 3113.2647048200006,
+        "exec_time": 4697.081000857081,
+        "sched_time": 643.476559638977,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 86783.81542332076,
+        "makespan": 4670.924869410962
+    },
+    {
+        "expected_makespan": 32.6005,
+        "exec_time": 50.40000003975005,
+        "sched_time": 0.014888525009155273,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 193.37765338570853,
+        "makespan": 56.34097620102158
+    },
+    {
+        "expected_makespan": 50.8501,
+        "exec_time": 50.40000005150004,
+        "sched_time": 0.03231048583984375,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 169.10559721106557,
+        "makespan": 40.34747198232605
+    },
+    {
+        "expected_makespan": 28.6005,
+        "exec_time": 50.40000004050003,
+        "sched_time": 0.11963462829589844,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 248.9099131160787,
+        "makespan": 49.03193297819271
+    },
+    {
+        "expected_makespan": 36.9751,
+        "exec_time": 50.40000005450004,
+        "sched_time": 2.1768128871917725,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 112.85418706194028,
+        "makespan": 38.15221371717401
+    },
+    {
+        "expected_makespan": 1111.5004,
+        "exec_time": 50.4000000315001,
+        "sched_time": 0.010546445846557617,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 8409.853848211946,
+        "makespan": 2618.369066358478
+    },
+    {
+        "expected_makespan": 1808.0002,
+        "exec_time": 50.4000000315001,
+        "sched_time": 0.009511232376098633,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 8409.853848211944,
+        "makespan": 2714.770672782923
+    },
+    {
+        "expected_makespan": 1111.5004,
+        "exec_time": 50.4000000315001,
+        "sched_time": 0.0365900993347168,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 8409.853848211946,
+        "makespan": 2618.369066358478
+    },
+    {
+        "expected_makespan": 1808.0002,
+        "exec_time": 50.4000000315001,
+        "sched_time": 0.23830032348632812,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 8409.853848211946,
+        "makespan": 2618.369066358478
+    },
+    {
+        "expected_makespan": 878.3997818199999,
+        "exec_time": 4697.081000276759,
+        "sched_time": 0.06177854537963867,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 2219.5188733858927,
+        "makespan": 1090.5518727669294
+    },
+    {
+        "expected_makespan": 963.2989792200001,
+        "exec_time": 4697.081000291252,
+        "sched_time": 0.9769618511199951,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 3274.4949834764293,
+        "makespan": 1080.1080988035608
+    },
+    {
+        "expected_makespan": 827.8317818200001,
+        "exec_time": 4697.0810002782355,
+        "sched_time": 1.3514597415924072,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 3892.697232984381,
+        "makespan": 1076.2639203131207
+    },
+    {
+        "expected_makespan": 855.23273922,
+        "exec_time": 4697.081000309752,
+        "sched_time": 192.18401837348938,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 3475.097621160141,
+        "makespan": 1099.437868153095
+    },
+    {
+        "expected_makespan": 1631.29610482,
+        "exec_time": 4697.081000440412,
+        "sched_time": 0.08198213577270508,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 125350.87973534797,
+        "makespan": 4820.395016913827
+    },
+    {
+        "expected_makespan": 3254.85850482,
+        "exec_time": 4697.081000433057,
+        "sched_time": 0.8445265293121338,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 125366.92857903811,
+        "makespan": 5729.482801664578
+    },
+    {
+        "expected_makespan": 1631.29610482,
+        "exec_time": 4697.081000416657,
+        "sched_time": 1.4277255535125732,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 125360.81733388577,
+        "makespan": 4848.096163590587
+    },
+    {
+        "expected_makespan": 935.65545572,
+        "exec_time": 4697.08100033556,
+        "sched_time": 883.6694250106812,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/simple_6.xml",
+        "comm_time": 1216.3167375681492,
+        "makespan": 959.6807556568222
+    },
+    {
+        "expected_makespan": 30.0006,
+        "exec_time": 50.400000028499974,
+        "sched_time": 0.007101535797119141,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 236.2200660551099,
+        "makespan": 66.24197240973999
+    },
+    {
+        "expected_makespan": 40.589397530864204,
+        "exec_time": 50.40000005075,
+        "sched_time": 0.01286458969116211,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 117.32000465987386,
+        "makespan": 46.31831657099605
+    },
+    {
+        "expected_makespan": 22.500799999999998,
+        "exec_time": 50.40000002524999,
+        "sched_time": 0.04061460494995117,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 273.59396605215915,
+        "makespan": 49.53593366612758
+    },
+    {
+        "expected_makespan": 34.80575555555556,
+        "exec_time": 50.40000005550001,
+        "sched_time": 0.29616522789001465,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 90.39415175368178,
+        "makespan": 42.6021309124458
+    },
+    {
+        "expected_makespan": 1112.5004,
+        "exec_time": 50.40000002099953,
+        "sched_time": 0.01046442985534668,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 8880.868742669452,
+        "makespan": 2608.865683749946
+    },
+    {
+        "expected_makespan": 1808.0002,
+        "exec_time": 50.40000002099953,
+        "sched_time": 0.005879402160644531,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 8880.868742669452,
+        "makespan": 2608.865683749946
+    },
+    {
+        "expected_makespan": 1112.5004,
+        "exec_time": 50.40000002099953,
+        "sched_time": 0.01428985595703125,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 8880.868742669452,
+        "makespan": 2608.865683749946
+    },
+    {
+        "expected_makespan": 1808.0002,
+        "exec_time": 50.40000002099953,
+        "sched_time": 0.0165863037109375,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 8880.868742669452,
+        "makespan": 2608.865683749946
+    },
+    {
+        "expected_makespan": 867.2644546200002,
+        "exec_time": 4697.081000268665,
+        "sched_time": 0.059723854064941406,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 145.79851385605872,
+        "makespan": 973.9660430122041
+    },
+    {
+        "expected_makespan": 1063.0532897199998,
+        "exec_time": 4697.081000268682,
+        "sched_time": 0.1997056007385254,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 145.79851385856665,
+        "makespan": 963.9903105941016
+    },
+    {
+        "expected_makespan": 867.2644546200002,
+        "exec_time": 4697.081000268665,
+        "sched_time": 0.41755056381225586,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 145.79851385605872,
+        "makespan": 973.9660430122041
+    },
+    {
+        "expected_makespan": 867.66928972,
+        "exec_time": 4697.081000268665,
+        "sched_time": 3.798595905303955,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 145.79851385605872,
+        "makespan": 973.9660430122041
+    },
+    {
+        "expected_makespan": 1215.5719048200003,
+        "exec_time": 4697.081000267911,
+        "sched_time": 0.059351205825805664,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 125328.84429567352,
+        "makespan": 4516.168713174838
+    },
+    {
+        "expected_makespan": 1788.53113482,
+        "exec_time": 4697.0984363757125,
+        "sched_time": 0.1356205940246582,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 125328.8442956695,
+        "makespan": 4455.6767468005155
+    },
+    {
+        "expected_makespan": 1215.5719048200003,
+        "exec_time": 4697.081000267911,
+        "sched_time": 0.4254887104034424,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 125328.84429567352,
+        "makespan": 4516.168713174838
+    },
+    {
+        "expected_makespan": 1788.53113482,
+        "exec_time": 4697.0810002574135,
+        "sched_time": 3.241579294204712,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 125328.84429567352,
+        "makespan": 4529.651149164439
+    },
+    {
+        "expected_makespan": 22.5004,
+        "exec_time": 50.40000002625002,
+        "sched_time": 0.0055065155029296875,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 82.18492509680577,
+        "makespan": 33.47513409046269
+    },
+    {
+        "expected_makespan": 26.0002,
+        "exec_time": 50.40000002625002,
+        "sched_time": 0.0058879852294921875,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 82.18492509680577,
+        "makespan": 33.47513409046269
+    },
+    {
+        "expected_makespan": 22.5004,
+        "exec_time": 50.40000002625002,
+        "sched_time": 0.011958837509155273,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 82.18492509680577,
+        "makespan": 33.47513409046269
+    },
+    {
+        "expected_makespan": 26.0002,
+        "exec_time": 50.40000002625002,
+        "sched_time": 0.01736283302307129,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_host.xml",
+        "comm_time": 82.18492509680577,
+        "makespan": 33.47513409046269
+    },
+    {
+        "expected_makespan": 1123.5004,
+        "exec_time": 50.40000005649915,
+        "sched_time": 0.007485151290893555,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 9108.054439930676,
+        "makespan": 2608.865683749946
+    },
+    {
+        "expected_makespan": 1810.0002,
+        "exec_time": 50.40000005649915,
+        "sched_time": 0.027814388275146484,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 9108.054439930676,
+        "makespan": 2608.865683749946
+    },
+    {
+        "expected_makespan": 1115.0004,
+        "exec_time": 50.40000004350304,
+        "sched_time": 0.10283637046813965,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 24085.927335903507,
+        "makespan": 4557.319291997368
+    },
+    {
+        "expected_makespan": 1810.0002,
+        "exec_time": 50.40000005649915,
+        "sched_time": 1.3324313163757324,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_2.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 9108.054439930676,
+        "makespan": 2608.865683749946
+    },
+    {
+        "expected_makespan": 942.8176418200001,
+        "exec_time": 4697.0810003185,
+        "sched_time": 0.07410883903503418,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 4662.81391543844,
+        "makespan": 1061.0961804411668
+    },
+    {
+        "expected_makespan": 961.7049217200001,
+        "exec_time": 4697.081000314311,
+        "sched_time": 2.6991121768951416,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 4665.895304847739,
+        "makespan": 1065.9036861025918
+    },
+    {
+        "expected_makespan": 920.6094897799998,
+        "exec_time": 4697.081000304237,
+        "sched_time": 3.7948691844940186,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 6112.665379031774,
+        "makespan": 1063.6664113075744
+    },
+    {
+        "expected_makespan": 2333.2735048199997,
+        "exec_time": 4697.0810004933555,
+        "sched_time": 193.70351338386536,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_rack.xml",
+        "comm_time": 125349.31938218784,
+        "makespan": 5086.057499593343
+    },
+    {
+        "expected_makespan": 2759.98310482,
+        "exec_time": 4697.0810007643195,
+        "sched_time": 0.07088422775268555,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 125353.47293190224,
+        "makespan": 5813.76660955529
+    },
+    {
+        "expected_makespan": 5303.534504819999,
+        "exec_time": 4697.08100074807,
+        "sched_time": 2.5653114318847656,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 125366.5188007421,
+        "makespan": 7996.334654753006
+    },
+    {
+        "expected_makespan": 2759.98310482,
+        "exec_time": 4697.081000846012,
+        "sched_time": 4.312668323516846,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 125349.63064240971,
+        "makespan": 5837.856882572967
+    },
+    {
+        "expected_makespan": 3461.96050482,
+        "exec_time": 4697.081000852015,
+        "sched_time": 776.9921638965607,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_3.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 125349.63064240971,
+        "makespan": 5837.856882572967
+    },
+    {
+        "expected_makespan": 32.601,
+        "exec_time": 50.40000003600001,
+        "sched_time": 0.006502389907836914,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 378.3868841241738,
+        "makespan": 89.80259340647561
+    },
+    {
+        "expected_makespan": 62.33244206349207,
+        "exec_time": 50.40000005750008,
+        "sched_time": 0.03656005859375,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 229.2912320289035,
+        "makespan": 61.039679341631356
+    },
+    {
+        "expected_makespan": 28.1008,
+        "exec_time": 50.40000004749996,
+        "sched_time": 0.10398697853088379,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "Lookahead"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 369.7800891574981,
+        "makespan": 77.78833248372597
+    },
+    {
+        "expected_makespan": 44.73673273809524,
+        "exec_time": 50.400000052500005,
+        "sched_time": 2.3108913898468018,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/complex_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 155.61686349091946,
+        "makespan": 48.855065865526264
+    },
+    {
+        "expected_makespan": 933.1355557200001,
+        "exec_time": 4697.081000334727,
+        "sched_time": 1197.7051696777344,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "tasks": "../thesis/experiment-2-enhanced-heft/workflows/CyberShake_100_0.dot",
+        "platform": "../thesis/experiment-2-enhanced-heft/platforms/platform_cluster.xml",
+        "comm_time": 5113.404539839041,
+        "makespan": 1056.319519076597
+    }
+]
