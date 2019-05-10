@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd">
+<platform version="4">
+  <AS  id="AS0"  routing="Floyd">
+    <host id="master" core="1" speed="1e1flops"/>
+    <host id="host11" core="4" speed="2e9flops"/>
+    <host id="host12" core="4" speed="2e9flops"/>
+    <host id="host21" core="4" speed="2e9flops"/>
+    <host id="host22" core="4" speed="2e9flops"/>
+    <router id="switch-1"/>
+    <router id="switch-2"/>
+
+    <link id="masterlink" bandwidth="100MBps" latency="100us"/>
+    <link id="link-1-1" bandwidth="100MBps" latency="100us"/>
+    <link id="link-1-2" bandwidth="100MBps" latency="100us"/>
+    <link id="link-2-1" bandwidth="100MBps" latency="100us"/>
+    <link id="link-2-2" bandwidth="100MBps" latency="100us"/>
+    <link id="switch-link-1-2" bandwidth="100MBps" latency="100us"/>
+
+    <route src="master" dst="switch-1"><link_ctn id="masterlink"/></route>
+    <route src="host11" dst="switch-1"><link_ctn id="link-1-1"/></route>
+    <route src="host12" dst="switch-1"><link_ctn id="link-1-2"/></route>
+    <route src="host21" dst="switch-2"><link_ctn id="link-2-1"/></route>
+    <route src="host22" dst="switch-2"><link_ctn id="link-2-2"/></route>
+    <route src="switch-1" dst="switch-2"><link_ctn id="switch-link-1-2"/></route>
+
+  </AS>
+</platform>

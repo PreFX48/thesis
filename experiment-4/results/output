@@ -1,0 +1,2802 @@
+[
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.2018752098083496,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 52.13307929896426,
+        "comm_time": 309.2961654568637,
+        "exec_time": 136.3679535849739,
+        "makespan": 55.94764484515022
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.2605757713317871,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 57.55873420389218,
+        "comm_time": 466.52905348955727,
+        "exec_time": 136.39930497371785,
+        "makespan": 71.18379508422022
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.19628167152404785,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 44.04154394961735,
+        "comm_time": 230.13028960045443,
+        "exec_time": 126.51736139674917,
+        "makespan": 56.193234504595296
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.25823330879211426,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 57.62621340894686,
+        "comm_time": 444.11762600590527,
+        "exec_time": 126.7943760739358,
+        "makespan": 70.90173595397101
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 23.69275212287903,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 35.01392394001178,
+        "comm_time": 183.2842654220126,
+        "exec_time": 137.1527464157988,
+        "makespan": 43.169434112265606
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.3710207939147949,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 81.99019024172048,
+        "comm_time": 861.5579088741424,
+        "exec_time": 130.91171272473318,
+        "makespan": 104.76540163560043
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 28.240053176879883,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 37.23135071730766,
+        "comm_time": 262.7161887250955,
+        "exec_time": 136.65852177299664,
+        "makespan": 49.98982178791073
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.25139403343200684,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 64.5063397131315,
+        "comm_time": 458.9906200874174,
+        "exec_time": 130.8189960242491,
+        "makespan": 80.50574437824565
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 27.704010486602783,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 38.27733593875,
+        "comm_time": 312.19042907430025,
+        "exec_time": 127.05326028997115,
+        "makespan": 61.354284903891134
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.26540184020996094,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 61.050417603901515,
+        "comm_time": 729.2594341469,
+        "exec_time": 134.94274935472157,
+        "makespan": 79.06412008768372
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 32.10289001464844,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 40.36606675829199,
+        "comm_time": 368.606132377727,
+        "exec_time": 127.0917611605802,
+        "makespan": 60.86607058841822
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.22182416915893555,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 52.809275042216505,
+        "comm_time": 615.2006737749247,
+        "exec_time": 134.46371375237484,
+        "makespan": 73.38500186117409
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 35.26249408721924,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 43.67723456247531,
+        "comm_time": 377.6639831785876,
+        "exec_time": 131.1742671381332,
+        "makespan": 68.65217962947914
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 27.409006595611572,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 38.68635265523344,
+        "comm_time": 198.90824777218523,
+        "exec_time": 134.57805340459146,
+        "makespan": 47.11214693165765
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.27582359313964844,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 61.83874344851431,
+        "comm_time": 506.3746728461797,
+        "exec_time": 121.48507295121517,
+        "makespan": 76.2757417801143
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.2727046012878418,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 67.50401091188482,
+        "comm_time": 599.9978907257499,
+        "exec_time": 121.23021157112488,
+        "makespan": 84.45522923594837
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 40.980209827423096,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 40.51826132499998,
+        "comm_time": 365.68575718820153,
+        "exec_time": 131.3598512481868,
+        "makespan": 66.51295072336504
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.216508150100708,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 49.65259258108496,
+        "comm_time": 706.4394089252517,
+        "exec_time": 137.21795365651175,
+        "makespan": 73.85265171673535
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.20628762245178223,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 49.65259258108496,
+        "comm_time": 677.5034162549572,
+        "exec_time": 137.18210231673302,
+        "makespan": 68.94035462789256
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 47.660210847854614,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 50.38835356118573,
+        "comm_time": 516.3394580581619,
+        "exec_time": 134.57370007827276,
+        "makespan": 71.9704465409947
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 27.92110824584961,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 42.25750797480555,
+        "comm_time": 257.80688923244224,
+        "exec_time": 121.23957746612174,
+        "makespan": 56.81285611957327
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.2292652130126953,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 52.33122649810889,
+        "comm_time": 658.747140426031,
+        "exec_time": 121.70208584581258,
+        "makespan": 81.85930502144332
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.18494606018066406,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 44.10926539807275,
+        "comm_time": 440.4428738737486,
+        "exec_time": 121.92896949323719,
+        "makespan": 65.66858271502149
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 27.7556049823761,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 36.519066435156255,
+        "comm_time": 484.9651897746775,
+        "exec_time": 137.62758432952495,
+        "makespan": 63.51159214696301
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 23.550543069839478,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 32.373054450000005,
+        "comm_time": 247.74130614781848,
+        "exec_time": 137.23240296066456,
+        "makespan": 40.531472629092804
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.23755931854248047,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 54.76804402378684,
+        "comm_time": 551.0741377225437,
+        "exec_time": 103.15018202488022,
+        "makespan": 65.95245720898157
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 45.163931131362915,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 49.571330394906305,
+        "comm_time": 455.0575459509855,
+        "exec_time": 121.10631312569319,
+        "makespan": 72.02033840051541
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.1675403118133545,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 46.560370868797364,
+        "comm_time": 446.6530369041406,
+        "exec_time": 102.71848017307164,
+        "makespan": 62.69149926287941
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 23.864672899246216,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 32.23047610957483,
+        "comm_time": 261.77407264594467,
+        "exec_time": 121.62718893099932,
+        "makespan": 45.585649739949716
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.26714277267456055,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 59.828993432465474,
+        "comm_time": 644.6695932465736,
+        "exec_time": 132.5184716221557,
+        "makespan": 74.46233499971494
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.24115920066833496,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 50.76522076167593,
+        "comm_time": 412.68830452398225,
+        "exec_time": 132.41262533616668,
+        "makespan": 64.26802816721609
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 33.22790551185608,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 40.26586927869603,
+        "comm_time": 386.6836627502777,
+        "exec_time": 122.08590427803566,
+        "makespan": 62.51927388291434
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 20.619400024414062,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 27.99044442833334,
+        "comm_time": 182.1918223373841,
+        "exec_time": 102.97228789689674,
+        "makespan": 42.73552733400452
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.2743821144104004,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 77.98715010598875,
+        "comm_time": 922.5823887369573,
+        "exec_time": 137.58449817394649,
+        "makespan": 90.58550711218001
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 0.20210838317871094,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 56.44198261849666,
+        "comm_time": 401.40455105625864,
+        "exec_time": 137.39409795205432,
+        "makespan": 65.83877300376439
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 30.001560926437378,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 30.32262307929445,
+        "comm_time": 235.98236513101847,
+        "exec_time": 103.50449947990276,
+        "makespan": 42.10658015384794
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 30.008769750595093,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 35.894748850000006,
+        "comm_time": 278.16321243512914,
+        "exec_time": 132.5328153822791,
+        "makespan": 53.74733453763546
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.7182087898254395,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 49.393104348099584,
+        "comm_time": 365.55796049186637,
+        "exec_time": 136.423673390512,
+        "makespan": 57.05695607386775
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 30.380192756652832,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 32.43178588041905,
+        "comm_time": 293.5322632763237,
+        "exec_time": 132.98296382472776,
+        "makespan": 44.42718093866188
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 22.616491079330444,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 41.173693848698974,
+        "comm_time": 286.9192044982784,
+        "exec_time": 137.72302307497205,
+        "makespan": 60.0475725606062
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.5728211402893066,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 47.448373268371746,
+        "comm_time": 388.91092775814053,
+        "exec_time": 136.46385151368165,
+        "makespan": 58.07290713629059
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.6422717571258545,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 68.5911283925,
+        "comm_time": 485.6510084241284,
+        "exec_time": 126.57815372048336,
+        "makespan": 93.79633974417
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_rack.xml",
+        "sched_time": 31.782991647720337,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 45.449551747811306,
+        "comm_time": 348.63698492137553,
+        "exec_time": 137.41134407591727,
+        "makespan": 63.3096222200751
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.4831874370574951,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 64.66574689250001,
+        "comm_time": 457.913530681622,
+        "exec_time": 126.60230358065469,
+        "makespan": 89.76330271301055
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 176.46555924415588,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 34.68056971532184,
+        "comm_time": 295.6393882585006,
+        "exec_time": 136.40203040247818,
+        "makespan": 46.305046776701644
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 1.0595424175262451,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 73.42995313873323,
+        "comm_time": 792.5454391422501,
+        "exec_time": 130.9560608449829,
+        "makespan": 97.52032061001545
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.6850471496582031,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 60.67179300285464,
+        "comm_time": 592.8460755415571,
+        "exec_time": 130.8707345699789,
+        "makespan": 85.1249473762512
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 231.87800121307373,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 49.1215236904617,
+        "comm_time": 418.6310347031892,
+        "exec_time": 126.72391070596723,
+        "makespan": 75.01525512435175
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 243.0706250667572,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 48.95905183109054,
+        "comm_time": 472.73502667966073,
+        "exec_time": 126.77804328409334,
+        "makespan": 79.2146368327366
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 250.39502549171448,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 36.52215084143982,
+        "comm_time": 369.6632939275396,
+        "exec_time": 136.512631906308,
+        "makespan": 48.95556352912597
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.914992094039917,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 60.94251589233263,
+        "comm_time": 812.4646747370655,
+        "exec_time": 134.06329973887136,
+        "makespan": 89.32179639040868
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.7818331718444824,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 60.94251589233263,
+        "comm_time": 793.1686791733667,
+        "exec_time": 134.02883742798286,
+        "makespan": 89.58227498248861
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 316.11856603622437,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 50.533166970571045,
+        "comm_time": 549.8967834942439,
+        "exec_time": 134.46636619022823,
+        "makespan": 70.10443974273157
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 315.9899842739105,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 50.45517017733905,
+        "comm_time": 522.8564671091227,
+        "exec_time": 134.35132957419253,
+        "makespan": 73.20826684329076
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 1.1724810600280762,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 78.1855837403417,
+        "comm_time": 846.1316994019933,
+        "exec_time": 121.01956445346732,
+        "makespan": 111.3065910719219
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 1.045858383178711,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 67.46174024424944,
+        "comm_time": 655.0260022983199,
+        "exec_time": 120.8725938069993,
+        "makespan": 78.74913682591739
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 351.5279507637024,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 46.04167145541212,
+        "comm_time": 425.30222571721106,
+        "exec_time": 131.23549357460536,
+        "makespan": 59.14618788535365
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.5856714248657227,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 41.45017132454475,
+        "comm_time": 593.782356751127,
+        "exec_time": 137.18210235448274,
+        "makespan": 63.7221894548848
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.5222721099853516,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 42.127340119403584,
+        "comm_time": 481.82963795218967,
+        "exec_time": 137.0476932064988,
+        "makespan": 53.792226798616696
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 439.77351999282837,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 53.60687619557425,
+        "comm_time": 564.8332018705031,
+        "exec_time": 130.99033062714884,
+        "makespan": 79.68234303582317
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 241.64207339286804,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 39.55754476149445,
+        "comm_time": 666.6816234150266,
+        "exec_time": 137.14865724448273,
+        "makespan": 59.04503801409509
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.7630598545074463,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 42.99704397832242,
+        "comm_time": 419.33223697164465,
+        "exec_time": 121.7484237024961,
+        "makespan": 61.92087663878961
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.5674762725830078,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 43.16552830169036,
+        "comm_time": 352.3925942265383,
+        "exec_time": 122.0989000793081,
+        "makespan": 55.91131726888303
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 271.4697585105896,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 52.08204583720295,
+        "comm_time": 414.44970265737476,
+        "exec_time": 121.01956445896727,
+        "makespan": 68.11269848544303
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 223.67217874526978,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 38.91943395258418,
+        "comm_time": 409.15506543790167,
+        "exec_time": 137.4795370914346,
+        "makespan": 52.76025150553979
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.5582897663116455,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 49.47802736765474,
+        "comm_time": 447.4842669140209,
+        "exec_time": 102.49061576599942,
+        "makespan": 73.79208441730194
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.4935882091522217,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 48.36649650066666,
+        "comm_time": 415.5749849464573,
+        "exec_time": 102.77962346894765,
+        "makespan": 72.75639002197371
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 392.8199110031128,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 58.70468795296255,
+        "comm_time": 540.3878438485818,
+        "exec_time": 121.0831757853161,
+        "makespan": 75.94020941181842
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 190.22027564048767,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 34.176115890625,
+        "comm_time": 257.5568053157795,
+        "exec_time": 103.15883623754736,
+        "makespan": 45.81757564094529
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.6995112895965576,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 56.68425072620805,
+        "comm_time": 470.55880692262207,
+        "exec_time": 132.3610635759987,
+        "makespan": 67.00723382902775
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.7631545066833496,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 57.08803457833333,
+        "comm_time": 457.5598957520919,
+        "exec_time": 132.45328212906253,
+        "makespan": 71.6609884083209
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 216.61171674728394,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 34.84893500354167,
+        "comm_time": 319.17385189666487,
+        "exec_time": 121.92304746874484,
+        "makespan": 51.10331118988893
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 275.1420238018036,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 37.000927347592594,
+        "comm_time": 375.0507411802307,
+        "exec_time": 121.80505818423521,
+        "makespan": 53.54076020524585
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.9800667762756348,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 87.96834025777433,
+        "comm_time": 1523.419004452259,
+        "exec_time": 137.1325194169991,
+        "makespan": 148.74745213410722
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 0.6918418407440186,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 69.27325259941644,
+        "comm_time": 769.927451390181,
+        "exec_time": 137.13251941149895,
+        "makespan": 100.89421192768266
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 206.44817304611206,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 34.117670038482736,
+        "comm_time": 353.91529050688763,
+        "exec_time": 103.47114842392025,
+        "makespan": 47.5435882450095
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 295.98733496665955,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 36.967299999999994,
+        "comm_time": 416.1940719175917,
+        "exec_time": 132.66841886404097,
+        "makespan": 59.03620026950595
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.6080183982849121,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 35.71115035000001,
+        "comm_time": 232.2671251667357,
+        "exec_time": 136.3780855269893,
+        "makespan": 37.92866302576543
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.45754051208496094,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 33.03997950000001,
+        "comm_time": 190.6925585107973,
+        "exec_time": 137.02135743843567,
+        "makespan": 33.05713896034863
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 294.82012605667114,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 42.91611082416666,
+        "comm_time": 547.4933415354883,
+        "exec_time": 132.64695497222888,
+        "makespan": 64.69549499278618
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 251.64617204666138,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 54.4054423676029,
+        "comm_time": 512.5033022345771,
+        "exec_time": 137.30989110181213,
+        "makespan": 78.78382459306128
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.4504213333129883,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 53.07531439666667,
+        "comm_time": 273.37422222665117,
+        "exec_time": 126.86802591000591,
+        "makespan": 54.85471083134739
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.4015376567840576,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 49.99935814560187,
+        "comm_time": 240.75667555684316,
+        "exec_time": 126.65137037690944,
+        "makespan": 53.87130120576571
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_cluster.xml",
+        "sched_time": 351.38711166381836,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 61.79812727918338,
+        "comm_time": 929.8439556825267,
+        "exec_time": 137.4086072073173,
+        "makespan": 96.07467526896394
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 180.70385432243347,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 30.796676999999995,
+        "comm_time": 233.6496932259147,
+        "exec_time": 136.76368599075016,
+        "makespan": 37.938414512508025
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.6442580223083496,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 42.938265,
+        "comm_time": 251.6378047773137,
+        "exec_time": 130.9215117559734,
+        "makespan": 45.55200770769753
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.5800459384918213,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 42.938265,
+        "comm_time": 228.6918416072847,
+        "exec_time": 130.91639875362938,
+        "makespan": 45.552007707197525
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 197.15173768997192,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 30.344971825000002,
+        "comm_time": 242.33739346100094,
+        "exec_time": 136.752593847272,
+        "makespan": 36.90800777164658
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 176.62192845344543,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 37.24465350000001,
+        "comm_time": 271.45179432588696,
+        "exec_time": 127.60243743222011,
+        "makespan": 43.4064936707081
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.6708440780639648,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 31.341097320000006,
+        "comm_time": 242.79143634226045,
+        "exec_time": 134.59716666750552,
+        "makespan": 39.97137507555221
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.49361109733581543,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 34.12481242000001,
+        "comm_time": 206.08541009821647,
+        "exec_time": 134.03799323648272,
+        "makespan": 37.082247963749005
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 234.66171622276306,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 42.54260048750001,
+        "comm_time": 371.2398640949494,
+        "exec_time": 127.59167724383794,
+        "makespan": 49.93192249482926
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 233.34373331069946,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 34.12574135,
+        "comm_time": 340.6546517510963,
+        "exec_time": 131.14863835765786,
+        "makespan": 41.9328120709786
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.7217912673950195,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 41.77982349270834,
+        "comm_time": 263.61759898462816,
+        "exec_time": 121.22926966810167,
+        "makespan": 48.23172256208652
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.595435380935669,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 42.36020045,
+        "comm_time": 206.43482866167835,
+        "exec_time": 121.05515145661562,
+        "makespan": 40.45271550604818
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 352.1712703704834,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 34.12574135,
+        "comm_time": 322.25511945986364,
+        "exec_time": 131.25897616590157,
+        "makespan": 40.49203545506024
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 230.92102932929993,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 31.803137149999998,
+        "comm_time": 250.40478863989335,
+        "exec_time": 135.02770764872787,
+        "makespan": 38.251898529399604
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.445662260055542,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 31.046555,
+        "comm_time": 235.52773819553664,
+        "exec_time": 137.2392163230019,
+        "makespan": 34.06812166963856
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.39820075035095215,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 28.4474045,
+        "comm_time": 213.63619964199904,
+        "exec_time": 137.24137987027856,
+        "makespan": 32.764731269722894
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 270.51123690605164,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 29.043229585,
+        "comm_time": 269.68416811217946,
+        "exec_time": 134.39768130861503,
+        "makespan": 36.60389642287149
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 268.033154964447,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 37.18530199999999,
+        "comm_time": 293.74723155966194,
+        "exec_time": 121.1508525983056,
+        "makespan": 43.05356939275503
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.5733184814453125,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 33.833039500000005,
+        "comm_time": 207.020951965098,
+        "exec_time": 121.85187625569937,
+        "makespan": 38.124122263851305
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.47657346725463867,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 32.721094225,
+        "comm_time": 193.6389756988617,
+        "exec_time": 121.88545615056853,
+        "makespan": 34.3033351001794
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 184.08917379379272,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 27.570269550000003,
+        "comm_time": 284.849125095189,
+        "exec_time": 138.13205809405372,
+        "makespan": 40.23757766633133
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 156.9273648262024,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 28.0903161,
+        "comm_time": 218.41176217454108,
+        "exec_time": 138.10710187430624,
+        "makespan": 32.95595892333133
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.38991856575012207,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 34.16595129125,
+        "comm_time": 161.21415785279606,
+        "exec_time": 102.6515116123715,
+        "makespan": 35.812151526925696
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.39707064628601074,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 34.16595129125,
+        "comm_time": 157.4817165838768,
+        "exec_time": 102.61261836598597,
+        "makespan": 36.45724749870497
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 224.4398684501648,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 35.40760025,
+        "comm_time": 259.3252301157397,
+        "exec_time": 121.37640160362793,
+        "makespan": 40.439600844411636
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 157.74154806137085,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 29.9527367,
+        "comm_time": 199.38060170770194,
+        "exec_time": 103.62576316084113,
+        "makespan": 37.08478950398995
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.572887659072876,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 34.63417870000001,
+        "comm_time": 238.9459829457101,
+        "exec_time": 132.36106357299883,
+        "makespan": 38.25138563717054
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.5288541316986084,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 33.1728268,
+        "comm_time": 206.85162596933145,
+        "exec_time": 132.6101008310162,
+        "makespan": 37.84166209189143
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 173.22020769119263,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 29.272092775,
+        "comm_time": 245.03355000168392,
+        "exec_time": 122.29210583859538,
+        "makespan": 36.06013348315863
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 165.0817530155182,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 27.341742375,
+        "comm_time": 210.6625318562276,
+        "exec_time": 103.10695697013938,
+        "makespan": 37.69720945338239
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.6168484687805176,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 41.125840441666675,
+        "comm_time": 285.7163390632276,
+        "exec_time": 137.28860328556144,
+        "makespan": 46.38353707739766
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 0.5274066925048828,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 37.097923400000006,
+        "comm_time": 254.61942056127202,
+        "exec_time": 137.4736817840306,
+        "makespan": 42.1143001926205
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 270.40115571022034,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 29.061987479166667,
+        "comm_time": 289.41649803151057,
+        "exec_time": 121.92781846857693,
+        "makespan": 39.79835494657226
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 231.72456336021423,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 32.3062927,
+        "comm_time": 257.5578383217467,
+        "exec_time": 133.16306438402597,
+        "makespan": 39.369027841829315
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.22644901275634766,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 38.38720219722222,
+        "comm_time": 270.02460756861643,
+        "exec_time": 136.6924096314931,
+        "makespan": 41.08847610181943
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.17619585990905762,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 36.59760973888889,
+        "comm_time": 196.32994020541616,
+        "exec_time": 137.90386413495943,
+        "makespan": 41.11704278971747
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 32.88166785240173,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 30.880243957916665,
+        "comm_time": 256.2640326018254,
+        "exec_time": 136.62881604920196,
+        "makespan": 38.82705519814718
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 274.91717982292175,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 30.033963999999997,
+        "comm_time": 288.8133767559492,
+        "exec_time": 133.01384619805015,
+        "makespan": 38.03383439294779
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.22899985313415527,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 40.370736500000014,
+        "comm_time": 374.8387131578986,
+        "exec_time": 126.60468766430927,
+        "makespan": 51.208401581729966
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.19960832595825195,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 39.14823189466667,
+        "comm_time": 340.355961588137,
+        "exec_time": 127.17676489644646,
+        "makespan": 50.475908428646115
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 211.91250205039978,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 33.559260050000006,
+        "comm_time": 305.08419861011936,
+        "exec_time": 137.48930307049542,
+        "makespan": 39.868915635223736
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 21.374622344970703,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 29.44845458020833,
+        "comm_time": 154.95400380887924,
+        "exec_time": 137.27851610712855,
+        "makespan": 35.820679412400594
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.25299525260925293,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 46.68004241116667,
+        "comm_time": 396.5486983699995,
+        "exec_time": 131.1450759353974,
+        "makespan": 49.17089675713309
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.20211577415466309,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 42.73559043740742,
+        "comm_time": 270.0035109733312,
+        "exec_time": 131.0895091272753,
+        "makespan": 45.732143756876
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 31.394768238067627,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 31.49643575833333,
+        "comm_time": 199.6982623338081,
+        "exec_time": 127.2116812052108,
+        "makespan": 38.84574908047389
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_6.xml",
+        "sched_time": 280.3938603401184,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 35.194387000000006,
+        "comm_time": 414.24560370603416,
+        "exec_time": 137.13251940899872,
+        "makespan": 51.10782167076312
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 25.806596279144287,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 31.469893969166666,
+        "comm_time": 182.07105445875186,
+        "exec_time": 128.04876950624924,
+        "makespan": 41.95908924414556
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.22532057762145996,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 35.550184229375,
+        "comm_time": 356.27081161833996,
+        "exec_time": 134.26980424619234,
+        "makespan": 40.75717416823434
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.20424723625183105,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 32.77109346802084,
+        "comm_time": 300.02905771086967,
+        "exec_time": 135.03669585382107,
+        "makespan": 44.177882092252794
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 27.784727573394775,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 27.304796237916666,
+        "comm_time": 199.37454715073238,
+        "exec_time": 134.23592628777803,
+        "makespan": 38.12695166563454
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 43.33880162239075,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 36.69305245,
+        "comm_time": 368.1554048320506,
+        "exec_time": 131.06838356124555,
+        "makespan": 47.831184892969574
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.279343843460083,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 45.71761494746528,
+        "comm_time": 339.34877414275286,
+        "exec_time": 121.39562379662115,
+        "makespan": 46.43070182855047
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.23712563514709473,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 40.214746661,
+        "comm_time": 220.3725595959816,
+        "exec_time": 121.08605480340151,
+        "makespan": 41.40519110601862
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 42.937129497528076,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 31.987499083333333,
+        "comm_time": 248.49741584732453,
+        "exec_time": 131.07299025683534,
+        "makespan": 41.691244570043104
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 40.4321186542511,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 31.20205192638889,
+        "comm_time": 320.83255965019555,
+        "exec_time": 134.90677964073794,
+        "makespan": 41.12758701215868
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.17978453636169434,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 31.714909525,
+        "comm_time": 334.0676847561262,
+        "exec_time": 137.2849680848554,
+        "makespan": 45.20769859219422
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.1796121597290039,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 30.295571024999997,
+        "comm_time": 301.9708995393488,
+        "exec_time": 137.51714372818708,
+        "makespan": 40.38538000712705
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 25.13524103164673,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 28.171293024999997,
+        "comm_time": 176.9902139595021,
+        "exec_time": 137.8292873689257,
+        "makespan": 34.93898646974097
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 37.41722583770752,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 33.33834695,
+        "comm_time": 292.0754204760755,
+        "exec_time": 121.24548565037648,
+        "makespan": 46.8833432282809
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 38.57870554924011,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 39.509785726240004,
+        "comm_time": 223.94831030617735,
+        "exec_time": 120.9992986888557,
+        "makespan": 44.221175301951924
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.20012140274047852,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 36.431619599444446,
+        "comm_time": 331.7047876326396,
+        "exec_time": 122.15895761526062,
+        "makespan": 39.38307107424029
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.21455693244934082,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 33.69060762666667,
+        "comm_time": 322.4791822002417,
+        "exec_time": 121.92999889076259,
+        "makespan": 43.614692882128864
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 31.018900632858276,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 29.241750649999997,
+        "comm_time": 362.66710390030653,
+        "exec_time": 138.18280907828313,
+        "makespan": 43.16843251541473
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.2077314853668213,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 34.48768440194445,
+        "comm_time": 250.29186096354988,
+        "exec_time": 102.78032119121616,
+        "makespan": 35.98491079119359
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.19457578659057617,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 34.48768440194444,
+        "comm_time": 230.06988694320825,
+        "exec_time": 102.94624155055845,
+        "makespan": 34.742534446790835
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 24.539832592010498,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 26.238598083333333,
+        "comm_time": 176.3981177567693,
+        "exec_time": 121.64767264258467,
+        "makespan": 33.79650112556333
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 23.703428745269775,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 23.419361291666668,
+        "comm_time": 176.77147836044088,
+        "exec_time": 103.38819195623856,
+        "makespan": 28.155892060867423
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.20817112922668457,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 35.224020719629635,
+        "comm_time": 267.2553835474775,
+        "exec_time": 132.40499637181622,
+        "makespan": 43.85550989333723
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 24.085734367370605,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 25.529140984999998,
+        "comm_time": 157.389181188693,
+        "exec_time": 102.98550553613632,
+        "makespan": 29.69574172382546
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.22080063819885254,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 36.23226570020834,
+        "comm_time": 272.5648744866893,
+        "exec_time": 132.40499636406633,
+        "makespan": 43.40558910346879
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 30.784764289855957,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 28.714955,
+        "comm_time": 210.4843627507517,
+        "exec_time": 122.16902467692552,
+        "makespan": 39.917258276236375
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.26546287536621094,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 42.987978217653065,
+        "comm_time": 379.4189452626321,
+        "exec_time": 137.1462209646607,
+        "makespan": 52.430093398410314
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 0.2220020294189453,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 40.91401737760001,
+        "comm_time": 328.63384402832696,
+        "exec_time": 137.13251937399906,
+        "makespan": 49.069966913675735
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 28.217640161514282,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 28.616792599999993,
+        "comm_time": 217.76355652558198,
+        "exec_time": 132.63959811881176,
+        "makespan": 39.258796770941856
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.05573606491088867,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 22.070645299999995,
+        "comm_time": 93.66808193413654,
+        "exec_time": 141.8420166361959,
+        "makespan": 27.959294795239963
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 26.737391710281372,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 34.354362605000006,
+        "comm_time": 277.27090675200964,
+        "exec_time": 137.31262039877097,
+        "makespan": 46.538123047810224
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08864879608154297,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 22.070645299999995,
+        "comm_time": 93.64466393413652,
+        "exec_time": 141.84201662836264,
+        "makespan": 27.959294794906626
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5712957382202148,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 22.070645299999995,
+        "comm_time": 93.66808193413654,
+        "exec_time": 141.8420166361959,
+        "makespan": 27.959294795239963
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.05911612510681152,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 20.5413694,
+        "comm_time": 88.55073386445784,
+        "exec_time": 137.45828585656963,
+        "makespan": 27.883864261664662
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_9.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 1.9015476703643799,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 22.070645299999995,
+        "comm_time": 93.64466393413652,
+        "exec_time": 141.84201662836264,
+        "makespan": 27.959294794906626
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.09113764762878418,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 20.5413694,
+        "comm_time": 88.52991786445779,
+        "exec_time": 137.45828585031967,
+        "makespan": 27.88386426141466
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5478718280792236,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 20.5413694,
+        "comm_time": 88.55073386445784,
+        "exec_time": 137.45828585656963,
+        "makespan": 27.883864261664662
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 41.90310215950012,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 31.492632750000002,
+        "comm_time": 269.8529899119932,
+        "exec_time": 133.34983119668388,
+        "makespan": 42.26507662492576
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.05791783332824707,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER",
+            "name": "EHEFT"
+        },
+        "expected_makespan": 17.31999175,
+        "comm_time": 92.3738314323294,
+        "exec_time": 139.67635113681243,
+        "makespan": 26.079792566202823
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_1.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 1.977881908416748,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 20.5413694,
+        "comm_time": 88.52991786445779,
+        "exec_time": 137.45828585031967,
+        "makespan": 27.88386426141466
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08254742622375488,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 17.31999175,
+        "comm_time": 92.35041343232935,
+        "exec_time": 139.67635112897918,
+        "makespan": 26.07979256586949
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5151898860931396,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 17.31999175,
+        "comm_time": 92.3738314323294,
+        "exec_time": 139.67635113681243,
+        "makespan": 26.079792566202823
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.05752229690551758,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 21.886798049999992,
+        "comm_time": 94.93356155080319,
+        "exec_time": 139.7861827017842,
+        "makespan": 30.259969609050195
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_6.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 2.0878891944885254,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 17.31999175,
+        "comm_time": 92.35041343232935,
+        "exec_time": 139.67635112897918,
+        "makespan": 26.07979256586949
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08626866340637207,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 21.886798049999992,
+        "comm_time": 94.91014355080317,
+        "exec_time": 139.78618269395096,
+        "makespan": 30.25996960871686
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5428767204284668,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 21.886798049999992,
+        "comm_time": 94.93356155080319,
+        "exec_time": 139.7861827017842,
+        "makespan": 30.259969609050195
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/simple_3.xml",
+        "sched_time": 45.84120440483093,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 35.835775606666665,
+        "comm_time": 477.5630781654938,
+        "exec_time": 137.13251939099888,
+        "makespan": 51.03565294786117
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.05986952781677246,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 16.223727049999997,
+        "comm_time": 87.7533136578313,
+        "exec_time": 130.49588534206362,
+        "makespan": 26.339376701184744
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.09151315689086914,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 16.223727049999997,
+        "comm_time": 87.7298956578313,
+        "exec_time": 130.4958853342302,
+        "makespan": 26.33937670085141
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_3.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 2.0631775856018066,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 21.886798049999992,
+        "comm_time": 94.91014355080317,
+        "exec_time": 139.78618269395096,
+        "makespan": 30.25996960871686
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5443055629730225,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 16.223727049999997,
+        "comm_time": 87.7533136578313,
+        "exec_time": 130.49588534206362,
+        "makespan": 26.339376701184744
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.05676603317260742,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 21.983169599999997,
+        "comm_time": 98.88356691465866,
+        "exec_time": 141.1580223690593,
+        "makespan": 29.170413232805227
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08565759658813477,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 21.983169599999997,
+        "comm_time": 98.86275091465866,
+        "exec_time": 141.15802236280942,
+        "makespan": 29.170413232555227
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_2.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 2.158942461013794,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 16.223727049999997,
+        "comm_time": 87.7298956578313,
+        "exec_time": 130.4958853342302,
+        "makespan": 26.33937670085141
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5183682441711426,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 21.983169599999997,
+        "comm_time": 98.88356691465866,
+        "exec_time": 141.1580223690593,
+        "makespan": 29.170413232805227
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.05767011642456055,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 17.343752999999996,
+        "comm_time": 85.02379891506028,
+        "exec_time": 129.29932141471122,
+        "makespan": 24.52259777854318
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08708572387695312,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 17.343752999999996,
+        "comm_time": 85.00038091506023,
+        "exec_time": 129.29932140687782,
+        "makespan": 24.522597778209846
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_8.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 1.9525809288024902,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 21.983169599999997,
+        "comm_time": 98.86275091465866,
+        "exec_time": 141.15802236280942,
+        "makespan": 29.170413232555227
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5588927268981934,
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 17.343752999999996,
+        "comm_time": 85.02379891506028,
+        "exec_time": 129.29932141471122,
+        "makespan": 24.52259777854318
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.056656599044799805,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 16.009707049999996,
+        "comm_time": 73.15471283273087,
+        "exec_time": 112.2417220499751,
+        "makespan": 21.999672837164656
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08520817756652832,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 16.009707049999996,
+        "comm_time": 73.13389683273087,
+        "exec_time": 112.2417220437251,
+        "makespan": 21.999672836914655
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_5.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 1.9161128997802734,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 17.343752999999996,
+        "comm_time": 85.00038091506023,
+        "exec_time": 129.29932140687782,
+        "makespan": 24.522597778209846
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.46268200874328613,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 16.009707049999996,
+        "comm_time": 73.15471283273087,
+        "exec_time": 112.2417220499751,
+        "makespan": 21.999672837164656
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.09990167617797852,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 20.196257600000003,
+        "comm_time": 95.15855396907631,
+        "exec_time": 140.19768743839776,
+        "makespan": 29.107547299460848
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08965516090393066,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "EHEFT_caching"
+        },
+        "expected_makespan": 20.196257600000003,
+        "comm_time": 95.13773796907628,
+        "exec_time": 140.1976874321478,
+        "makespan": 29.107547299210847
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_0.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 2.0124943256378174,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 16.009707049999996,
+        "comm_time": 73.13389683273087,
+        "exec_time": 112.2417220437251,
+        "makespan": 21.999672836914655
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.531745195388794,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 20.196257600000003,
+        "comm_time": 95.15855396907631,
+        "exec_time": 140.19768743839776,
+        "makespan": 29.107547299460848
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08711767196655273,
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 21.007025305000006,
+        "comm_time": 98.52639408473891,
+        "exec_time": 140.82265527090985,
+        "makespan": 28.035798328675707
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.08552360534667969,
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "expected_makespan": 21.007025305000006,
+        "comm_time": 98.50297608473889,
+        "exec_time": 140.8226552630766,
+        "makespan": 28.035798328342374
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 0.5677900314331055,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER",
+            "name": "ELA"
+        },
+        "expected_makespan": 21.007025305000006,
+        "comm_time": 98.52639408473891,
+        "exec_time": 140.82265527090985,
+        "makespan": 28.035798328675707
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_4.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 2.0565543174743652,
+        "algorithm": {
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING",
+            "name": "ELA_caching"
+        },
+        "expected_makespan": 20.196257600000003,
+        "comm_time": 95.13773796907628,
+        "exec_time": 140.1976874321478,
+        "makespan": 29.107547299210847
+    },
+    {
+        "tasks": "../thesis/experiment-3-caching/workflows/daggen_100_0.50_0.90_0.20_2_1e+06_1e+09_200.00_7.dot",
+        "platform": "../thesis/experiment-3-caching/platforms/platform_host.xml",
+        "sched_time": 1.4696788787841797,
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "expected_makespan": 21.007025305000006,
+        "comm_time": 98.50297608473889,
+        "exec_time": 140.8226552630766,
+        "makespan": 28.035798328342374
+    }
+]
