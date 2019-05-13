@@ -1,0 +1,22 @@
+[
+  {
+    "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+    "data-transfer-mode": "EAGER",
+    "name": "EHEFT"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+    "data-transfer-mode": "EAGER_CACHING",
+    "name": "EHEFT_caching"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+    "data-transfer-mode": "EAGER",
+    "name": "ELA"
+  },
+  {
+    "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+    "data-transfer-mode": "EAGER_CACHING",
+    "name": "ELA_caching"
+  }
+]
