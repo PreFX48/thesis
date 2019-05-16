@@ -1,9 +1,5 @@
 [
   {
-    "class": "pysimgrid.simdag.algorithms.olb_multicore.OLB",
-    "name": "OLB"
-  },
-  {
     "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchMin",
     "name": "BatchMin"
   },
@@ -13,18 +9,18 @@
   },
   {
     "class": "pysimgrid.simdag.algorithms.batch_dyn_multicore.DynamicBatchSufferage",
-    "name": "BatchSufferage"
+    "name": "BatchSuff"
   },
   {
     "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMin",
-    "name": "BatchMin"
+    "name": "EBMin"
   },
   {
     "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchMax",
-    "name": "BatchMax"
+    "name": "EBMax"
   },
   {
     "class": "pysimgrid.simdag.algorithms.enhanced_batch.EnhancedBatchSufferage",
-    "name": "BatchSufferage"
+    "name": "EBSuff"
   }
 ]
