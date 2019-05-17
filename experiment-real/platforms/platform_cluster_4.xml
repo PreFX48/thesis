@@ -3,12 +3,14 @@
 <platform version="4">
   <AS  id="AS0"  routing="Floyd">
     <host id="master" core="1" speed="1e1flops"/>
-    <host id="host11" core="1" speed="2e9flops"/>
-    <host id="host12" core="1" speed="2e9flops"/>
-    <host id="host13" core="1" speed="2e9flops"/>
-    <host id="host21" core="1" speed="2e9flops"/>
-    <host id="host22" core="1" speed="2e9flops"/>
-    <host id="host23" core="1" speed="2e9flops"/>
+    <host id="host11" core="2" speed="2e9flops"/>
+    <host id="host12" core="2" speed="2e9flops"/>
+    <host id="host13" core="2" speed="2e9flops"/>
+    <host id="host14" core="2" speed="2e9flops"/>
+    <host id="host21" core="2" speed="2e9flops"/>
+    <host id="host22" core="2" speed="2e9flops"/>
+    <host id="host23" core="2" speed="2e9flops"/>
+    <host id="host24" core="2" speed="2e9flops"/>
     <router id="switch-1"/>
     <router id="switch-2"/>
 
@@ -16,18 +18,22 @@
     <link id="link-1-1" bandwidth="100MBps" latency="100us"/>
     <link id="link-1-2" bandwidth="100MBps" latency="100us"/>
     <link id="link-1-3" bandwidth="100MBps" latency="100us"/>
+    <link id="link-1-4" bandwidth="100MBps" latency="100us"/>
     <link id="link-2-1" bandwidth="100MBps" latency="100us"/>
     <link id="link-2-2" bandwidth="100MBps" latency="100us"/>
     <link id="link-2-3" bandwidth="100MBps" latency="100us"/>
+    <link id="link-2-4" bandwidth="100MBps" latency="100us"/>
     <link id="switch-link-1-2" bandwidth="100MBps" latency="100us"/>
 
     <route src="master" dst="switch-1"><link_ctn id="masterlink"/></route>
     <route src="host11" dst="switch-1"><link_ctn id="link-1-1"/></route>
     <route src="host12" dst="switch-1"><link_ctn id="link-1-2"/></route>
     <route src="host13" dst="switch-1"><link_ctn id="link-1-3"/></route>
+    <route src="host14" dst="switch-1"><link_ctn id="link-1-4"/></route>
     <route src="host21" dst="switch-2"><link_ctn id="link-2-1"/></route>
     <route src="host22" dst="switch-2"><link_ctn id="link-2-2"/></route>
     <route src="host23" dst="switch-2"><link_ctn id="link-2-3"/></route>
+    <route src="host24" dst="switch-2"><link_ctn id="link-2-4"/></route>
     <route src="switch-1" dst="switch-2"><link_ctn id="switch-link-1-2"/></route>
 
   </AS>
