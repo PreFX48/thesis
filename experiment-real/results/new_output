@@ -1,0 +1,1682 @@
+[
+    {
+        "expected_makespan": 108673.53026,
+        "makespan": 545269.4227105803,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "sched_time": 0.0545802116394043,
+        "exec_time": 847143.0320000841,
+        "comm_time": 10626424.995225152
+    },
+    {
+        "expected_makespan": 252.6032744297,
+        "makespan": 832.6930733928175,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.1034095287322998,
+        "exec_time": 2266.7140002843425,
+        "comm_time": 39831.140455568995
+    },
+    {
+        "expected_makespan": 456196.32596,
+        "makespan": 580724.7497103419,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 1.4327070713043213,
+        "exec_time": 847143.032000082,
+        "comm_time": 10960071.925409162
+    },
+    {
+        "expected_makespan": 361.45930504438337,
+        "makespan": 491.38776089168766,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 1.4984185695648193,
+        "exec_time": 2266.714000146031,
+        "comm_time": 5614.382653572735
+    },
+    {
+        "expected_makespan": 93555.95913100001,
+        "makespan": 224545.20279207992,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING"
+        },
+        "sched_time": 0.17569446563720703,
+        "exec_time": 847143.1042639692,
+        "comm_time": 80060.99138047275
+    },
+    {
+        "expected_makespan": 251.5261387297,
+        "makespan": 903.6016146439164,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "LA",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 2.4235520362854004,
+        "exec_time": 2266.714000283966,
+        "comm_time": 49907.26082444655
+    },
+    {
+        "expected_makespan": 1160.5939048199998,
+        "makespan": 4380.71248407581,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.07870793342590332,
+        "exec_time": 4697.0810002927765,
+        "comm_time": 125354.82566849263
+    },
+    {
+        "expected_makespan": 89495.06526,
+        "makespan": 540537.7669445813,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 2.1441216468811035,
+        "exec_time": 847143.0320000813,
+        "comm_time": 10541959.928537972
+    },
+    {
+        "expected_makespan": 2094.769404819999,
+        "makespan": 2848.0345980788834,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.24119329452514648,
+        "exec_time": 4697.081000271755,
+        "comm_time": 47737.230720738924
+    },
+    {
+        "expected_makespan": 2097.170504819999,
+        "makespan": 4943.472045296372,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 2.3983981609344482,
+        "exec_time": 4697.081000324371,
+        "comm_time": 125337.3988175986
+    },
+    {
+        "expected_makespan": 1160.5939048199998,
+        "makespan": 4380.712484080562,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "LA"
+        },
+        "sched_time": 2.375920057296753,
+        "exec_time": 4697.0810003251645,
+        "comm_time": 125355.0929995238
+    },
+    {
+        "expected_makespan": 470.24067879198134,
+        "makespan": 715.0391572044811,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 9.270442247390747,
+        "exec_time": 2266.714000263263,
+        "comm_time": 16879.248570001597
+    },
+    {
+        "expected_makespan": 3098.28876,
+        "makespan": 27264.97219509144,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.05927157402038574,
+        "exec_time": 44150.61600010832,
+        "comm_time": 1502969.7410653802
+    },
+    {
+        "expected_makespan": 3539.2154442,
+        "makespan": 5416.424791604951,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.27488064765930176,
+        "exec_time": 44150.61600007322,
+        "comm_time": 5014.4155647164525
+    },
+    {
+        "expected_makespan": 22654.3189996,
+        "makespan": 32284.92825813976,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 4.912442684173584,
+        "exec_time": 44150.616000116715,
+        "comm_time": 1614851.2777165514
+    },
+    {
+        "expected_makespan": 3098.28876,
+        "makespan": 27874.33182856035,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "LA"
+        },
+        "sched_time": 2.261437177658081,
+        "exec_time": 44150.61600011944,
+        "comm_time": 1512667.3181499816
+    },
+    {
+        "expected_makespan": 64258.208276,
+        "makespan": 227064.86537796873,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA_caching"
+        },
+        "sched_time": 47.32897996902466,
+        "exec_time": 847143.0320000742,
+        "comm_time": 2767.8602516220003
+    },
+    {
+        "expected_makespan": 252.09746542969998,
+        "makespan": 813.6910948608512,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.11405158042907715,
+        "exec_time": 2266.71400028048,
+        "comm_time": 35632.67458404323
+    },
+    {
+        "expected_makespan": 1792.8595048199998,
+        "makespan": 2659.480789837335,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA_caching"
+        },
+        "sched_time": 45.98091673851013,
+        "exec_time": 4697.081000248505,
+        "comm_time": 48871.03468886884
+    },
+    {
+        "expected_makespan": 376.85923839246925,
+        "makespan": 537.0011402733677,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 6.57223105430603,
+        "exec_time": 2266.714000141339,
+        "comm_time": 8758.085791763486
+    },
+    {
+        "expected_makespan": 3539.215444199999,
+        "makespan": 6737.917989807142,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA_caching"
+        },
+        "sched_time": 48.76513481140137,
+        "exec_time": 44150.61600008407,
+        "comm_time": 5135.777966782156
+    },
+    {
+        "expected_makespan": 250.81712122969998,
+        "makespan": 808.4374134598042,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 6.258874177932739,
+        "exec_time": 2266.714000275322,
+        "comm_time": 36865.264537130926
+    },
+    {
+        "expected_makespan": 447.61115152679145,
+        "makespan": 692.1304414094265,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 25.33571696281433,
+        "exec_time": 2266.714000375337,
+        "comm_time": 18394.98904503457
+    },
+    {
+        "expected_makespan": 104669.54026,
+        "makespan": 542560.0427105819,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.058860063552856445,
+        "exec_time": 847143.0320000878,
+        "comm_time": 10626451.378399156
+    },
+    {
+        "expected_makespan": 456196.32596,
+        "makespan": 753638.9862945382,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 1.1410932540893555,
+        "exec_time": 847143.0320001285,
+        "comm_time": 11455779.064425088
+    },
+    {
+        "expected_makespan": 148474.92595999996,
+        "makespan": 195076.57487828386,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.7303011417388916,
+        "exec_time": 847143.0320000708,
+        "comm_time": 437981.1864471372
+    },
+    {
+        "expected_makespan": 90637.13526,
+        "makespan": 556781.2475911955,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 5.749463319778442,
+        "exec_time": 847143.0320000818,
+        "comm_time": 10574945.956844458
+    },
+    {
+        "expected_makespan": 304.8071508710318,
+        "makespan": 431.2520553009356,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 397.5456988811493,
+        "exec_time": 2266.7140001515354,
+        "comm_time": 4156.989201860447
+    },
+    {
+        "expected_makespan": 456196.3259599995,
+        "makespan": 559950.6510716428,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "sched_time": 464.28150367736816,
+        "exec_time": 847143.0320000841,
+        "comm_time": 10775198.559504801
+    },
+    {
+        "expected_makespan": 1631.29610482,
+        "makespan": 4820.395016913827,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.08102154731750488,
+        "exec_time": 4697.081000442573,
+        "comm_time": 125350.38193006422
+    },
+    {
+        "expected_makespan": 3151.79050482,
+        "makespan": 5927.071996822837,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 5.316524267196655,
+        "exec_time": 4697.081000447558,
+        "comm_time": 125366.21047330154
+    },
+    {
+        "expected_makespan": 3146.07140482,
+        "makespan": 3829.0517447544717,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.37589406967163086,
+        "exec_time": 4697.081000376482,
+        "comm_time": 47738.53874960016
+    },
+    {
+        "expected_makespan": 1631.29610482,
+        "makespan": 4848.096163590587,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 6.349304437637329,
+        "exec_time": 4697.081000418153,
+        "comm_time": 125360.81733388604
+    },
+    {
+        "expected_makespan": 113665.64096,
+        "makespan": 378131.4859786517,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA_caching"
+        },
+        "sched_time": 241.40922474861145,
+        "exec_time": 847143.0320000603,
+        "comm_time": 171172.05998975137
+    },
+    {
+        "expected_makespan": 1792.8595048199998,
+        "makespan": 4595.871009287419,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 699.1877508163452,
+        "exec_time": 4697.081000331824,
+        "comm_time": 125349.22314463134
+    },
+    {
+        "expected_makespan": 3145.8618979999997,
+        "makespan": 27907.206870055612,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.06279897689819336,
+        "exec_time": 44150.61600012684,
+        "comm_time": 1503717.9362756088
+    },
+    {
+        "expected_makespan": 22654.318999599993,
+        "makespan": 37128.2356894212,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 12.599268198013306,
+        "exec_time": 44150.616000142785,
+        "comm_time": 1629917.8476289464
+    },
+    {
+        "expected_makespan": 4125.4845442,
+        "makespan": 7623.922964548891,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.9466814994812012,
+        "exec_time": 44150.616000095135,
+        "comm_time": 19423.611517121986
+    },
+    {
+        "expected_makespan": 3105.664903,
+        "makespan": 29203.10061803263,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "LA"
+        },
+        "sched_time": 5.907498598098755,
+        "exec_time": 44150.61600011794,
+        "comm_time": 1512801.1856973632
+    },
+    {
+        "expected_makespan": 2333.2735048199997,
+        "makespan": 3139.103045015162,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 180.22984337806702,
+        "exec_time": 4697.246883331838,
+        "comm_time": 48870.356296414735
+    },
+    {
+        "expected_makespan": 456196.3259599998,
+        "makespan": 752828.5856757498,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 737.6776919364929,
+        "exec_time": 847143.0320000768,
+        "comm_time": 11455961.726258054
+    },
+    {
+        "expected_makespan": 252.41407442969998,
+        "makespan": 794.4032161858836,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.10625934600830078,
+        "exec_time": 2266.7140002838833,
+        "comm_time": 38995.81004502307
+    },
+    {
+        "expected_makespan": 464.1651722970638,
+        "makespan": 718.8964965992319,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 8.450105428695679,
+        "exec_time": 2266.714000257567,
+        "comm_time": 19139.44078549453
+    },
+    {
+        "expected_makespan": 367.073424307465,
+        "makespan": 505.7080847795971,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 1.346588134765625,
+        "exec_time": 2266.7140001550297,
+        "comm_time": 5723.956398200986
+    },
+    {
+        "expected_makespan": 251.2590744297,
+        "makespan": 809.7815712580627,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 2.4292306900024414,
+        "exec_time": 2266.714000278176,
+        "comm_time": 36339.640132131535
+    },
+    {
+        "expected_makespan": 3918.7132441999997,
+        "makespan": 10716.686708739773,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 460.4692475795746,
+        "exec_time": 44150.61600008931,
+        "comm_time": 19352.234721549765
+    },
+    {
+        "expected_makespan": 304.9059342670996,
+        "makespan": 416.6893909331058,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 357.3535592556,
+        "exec_time": 2266.714000141311,
+        "comm_time": 3808.484634253245
+    },
+    {
+        "expected_makespan": 108673.53006,
+        "makespan": 545250.0560820559,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 0.0527348518371582,
+        "exec_time": 847143.032000082,
+        "comm_time": 11457918.846952073
+    },
+    {
+        "expected_makespan": 456196.32595999975,
+        "makespan": 600339.7587597292,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 1.314936876296997,
+        "exec_time": 847143.0320000692,
+        "comm_time": 11467756.453047343
+    },
+    {
+        "expected_makespan": 93555.95913100001,
+        "makespan": 225083.59552674662,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING"
+        },
+        "sched_time": 0.1711866855621338,
+        "exec_time": 847143.0320000814,
+        "comm_time": 80715.82816164944
+    },
+    {
+        "expected_makespan": 89495.06506000001,
+        "makespan": 540509.7020846648,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 2.0715737342834473,
+        "exec_time": 847143.0320000787,
+        "comm_time": 11457717.694920275
+    },
+    {
+        "expected_makespan": 22654.318999599986,
+        "makespan": 31676.07800190123,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "ELA",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 1709.825463294983,
+        "exec_time": 44150.61600012968,
+        "comm_time": 1603766.773812808
+    },
+    {
+        "expected_makespan": 64272.590788,
+        "makespan": 228967.29185000889,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 42.68006682395935,
+        "exec_time": 847143.0320000809,
+        "comm_time": 2098.1455272838425
+    },
+    {
+        "expected_makespan": 1160.5939048199998,
+        "makespan": 4380.71248407546,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.0763096809387207,
+        "exec_time": 4697.081000289635,
+        "comm_time": 125356.09015682366
+    },
+    {
+        "expected_makespan": 2097.170504819999,
+        "makespan": 4943.472045296372,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 2.4157938957214355,
+        "exec_time": 4697.081000324373,
+        "comm_time": 125337.37908031346
+    },
+    {
+        "expected_makespan": 2094.769404819999,
+        "makespan": 2848.0345980788834,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.23346281051635742,
+        "exec_time": 4697.081000271755,
+        "comm_time": 47737.19093331349
+    },
+    {
+        "expected_makespan": 1160.5939048199998,
+        "makespan": 4380.712484080562,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 2.3558120727539062,
+        "exec_time": 4697.0810003251645,
+        "comm_time": 125355.0929995238
+    },
+    {
+        "expected_makespan": 456196.3259599995,
+        "makespan": 576756.4496999898,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "sched_time": 379.63938093185425,
+        "exec_time": 847143.0320000694,
+        "comm_time": 11465721.80301685
+    },
+    {
+        "expected_makespan": 1792.8595048199998,
+        "makespan": 2659.480789837335,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA_caching"
+        },
+        "sched_time": 42.941734790802,
+        "exec_time": 4697.081000248505,
+        "comm_time": 48871.03468886884
+    },
+    {
+        "expected_makespan": 3098.28876,
+        "makespan": 27239.835328933554,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.05877947807312012,
+        "exec_time": 44150.61600011289,
+        "comm_time": 1629998.0068345712
+    },
+    {
+        "expected_makespan": 22654.3189996,
+        "makespan": 32513.98689327726,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 5.038682460784912,
+        "exec_time": 44150.61600011648,
+        "comm_time": 1630071.7370151742
+    },
+    {
+        "expected_makespan": 3539.2153442,
+        "makespan": 5631.879830281926,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.25815796852111816,
+        "exec_time": 44150.61600007322,
+        "comm_time": 5422.592336884016
+    },
+    {
+        "expected_makespan": 3098.28876,
+        "makespan": 29282.84190444426,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 2.2585043907165527,
+        "exec_time": 44150.61600013696,
+        "comm_time": 1630073.2182438564
+    },
+    {
+        "expected_makespan": 1792.8595048199998,
+        "makespan": 4595.871009287419,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "sched_time": 698.6603734493256,
+        "exec_time": 4697.081000331824,
+        "comm_time": 125349.22314463134
+    },
+    {
+        "expected_makespan": 3539.215344199999,
+        "makespan": 6935.020389515996,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 47.47906160354614,
+        "exec_time": 44150.61600007559,
+        "comm_time": 5499.751799071109
+    },
+    {
+        "expected_makespan": 252.05526542969997,
+        "makespan": 722.169935871296,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.10980391502380371,
+        "exec_time": 2266.7140002730066,
+        "comm_time": 28115.60632049354
+    },
+    {
+        "expected_makespan": 368.1771365379241,
+        "makespan": 576.509260515031,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_2.xml",
+        "algorithm": {
+            "name": "ELA",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 2556.624834537506,
+        "exec_time": 2266.7140002846345,
+        "comm_time": 10831.226459804684
+    },
+    {
+        "expected_makespan": 370.25658211993994,
+        "makespan": 522.1446543408503,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING"
+        },
+        "sched_time": 6.458545207977295,
+        "exec_time": 2266.7140001580888,
+        "comm_time": 8482.497013646893
+    },
+    {
+        "expected_makespan": 427.83351601718357,
+        "makespan": 622.1104021718531,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "name": "EHEFT"
+        },
+        "sched_time": 23.945980548858643,
+        "exec_time": 2266.7140003007617,
+        "comm_time": 17432.552911694955
+    },
+    {
+        "expected_makespan": 251.0472654297,
+        "makespan": 649.1246447064069,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "name": "LA"
+        },
+        "sched_time": 6.191769361495972,
+        "exec_time": 2266.714000268364,
+        "comm_time": 26664.15907226262
+    },
+    {
+        "expected_makespan": 379.39839056125277,
+        "makespan": 616.0390228568776,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 2426.8097660541534,
+        "exec_time": 2266.714000275031,
+        "comm_time": 13926.77021074672
+    },
+    {
+        "expected_makespan": 104669.54006,
+        "makespan": 542540.6760820586,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.05627322196960449,
+        "exec_time": 847143.0320000857,
+        "comm_time": 11457863.655913236
+    },
+    {
+        "expected_makespan": 456196.3259599999,
+        "makespan": 726343.3483716825,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 1.187150239944458,
+        "exec_time": 847143.0320001418,
+        "comm_time": 11455837.5402547
+    },
+    {
+        "expected_makespan": 148474.92595999996,
+        "makespan": 207222.83819854842,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER_CACHING"
+        },
+        "sched_time": 0.6921126842498779,
+        "exec_time": 847143.0320000717,
+        "comm_time": 475041.3583844508
+    },
+    {
+        "expected_makespan": 90637.13506,
+        "makespan": 556755.6413463296,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "LA",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 5.748321771621704,
+        "exec_time": 847143.0320000846,
+        "comm_time": 11455017.087611958
+    },
+    {
+        "expected_makespan": 2333.2735048199997,
+        "makespan": 5134.987499593344,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 2952.1535761356354,
+        "exec_time": 4697.081000491598,
+        "comm_time": 125350.77627487118
+    },
+    {
+        "expected_makespan": 109220.57096000001,
+        "makespan": 386765.9375511753,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING"
+        },
+        "sched_time": 247.8593602180481,
+        "exec_time": 847143.0320000604,
+        "comm_time": 78182.26179048755
+    },
+    {
+        "expected_makespan": 1631.29610482,
+        "makespan": 4820.395016913827,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 0.08177661895751953,
+        "exec_time": 4697.081000439655,
+        "comm_time": 125350.87973534498
+    },
+    {
+        "expected_makespan": 3151.79050482,
+        "makespan": 5927.071996822837,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 5.333313941955566,
+        "exec_time": 4697.081000447558,
+        "comm_time": 125366.28459201632
+    },
+    {
+        "expected_makespan": 3146.07140482,
+        "makespan": 3829.0517447544717,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.3763577938079834,
+        "exec_time": 4697.081000376482,
+        "comm_time": 47738.612868314936
+    },
+    {
+        "expected_makespan": 1631.29610482,
+        "makespan": 4848.096163590587,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 6.405552864074707,
+        "exec_time": 4697.081000418153,
+        "comm_time": 125360.81733388604
+    },
+    {
+        "expected_makespan": 22654.318999599986,
+        "makespan": 31733.89708717482,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 1680.4490571022034,
+        "exec_time": 44150.61600013447,
+        "comm_time": 1630107.3986024596
+    },
+    {
+        "expected_makespan": 2333.2735048199997,
+        "makespan": 3139.103045015162,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 171.51418352127075,
+        "exec_time": 4697.246883331838,
+        "comm_time": 48870.356296414735
+    },
+    {
+        "expected_makespan": 3145.861698,
+        "makespan": 27898.390140612053,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.062165260314941406,
+        "exec_time": 44150.616000130874,
+        "comm_time": 1629852.3569001611
+    },
+    {
+        "expected_makespan": 22654.318999599993,
+        "makespan": 37128.2356894212,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 12.675792217254639,
+        "exec_time": 44150.616000142785,
+        "comm_time": 1629919.5303437412
+    },
+    {
+        "expected_makespan": 4125.4845442,
+        "makespan": 8055.746577273976,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.8587114810943604,
+        "exec_time": 44150.61600009589,
+        "comm_time": 21101.82834323882
+    },
+    {
+        "expected_makespan": 3105.664903,
+        "makespan": 28522.486015753224,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 6.049609184265137,
+        "exec_time": 44150.61600012773,
+        "comm_time": 1629983.2202897635
+    },
+    {
+        "expected_makespan": 340.0394243594001,
+        "makespan": 489.0412338443861,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 4006.080434322357,
+        "exec_time": 2266.7140001532543,
+        "comm_time": 6634.718528230384
+    },
+    {
+        "expected_makespan": 3918.7132441999997,
+        "makespan": 11148.674496976886,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 421.6944148540497,
+        "exec_time": 44150.61600009005,
+        "comm_time": 21079.23893525079
+    },
+    {
+        "expected_makespan": 643.1913271297002,
+        "makespan": 713.2773906308776,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 0.10732913017272949,
+        "exec_time": 2266.714000944013,
+        "comm_time": 5490.6595650054805
+    },
+    {
+        "expected_makespan": 652.9529577594002,
+        "makespan": 713.2773906308776,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 6.372567653656006,
+        "exec_time": 2266.714000944013,
+        "comm_time": 5490.6595650054805
+    },
+    {
+        "expected_makespan": 652.9529577594002,
+        "makespan": 665.8527989557923,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.4970550537109375,
+        "exec_time": 2266.714000228502,
+        "comm_time": 735.1795588009147
+    },
+    {
+        "expected_makespan": 639.1230594297,
+        "makespan": 733.6605052875817,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 2.199390172958374,
+        "exec_time": 2266.7140010015096,
+        "comm_time": 6011.015996047145
+    },
+    {
+        "expected_makespan": 456196.32595999946,
+        "makespan": 633597.0999795712,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 1727.729350566864,
+        "exec_time": 847143.0320000822,
+        "comm_time": 11456058.295699332
+    },
+    {
+        "expected_makespan": 648.4677444999999,
+        "makespan": 662.8441797457696,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 75.78505754470825,
+        "exec_time": 2266.7140002715037,
+        "comm_time": 621.3213237482325
+    },
+    {
+        "expected_makespan": 240566.52986,
+        "makespan": 351404.8659145603,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT",
+            "name": "HEFT"
+        },
+        "sched_time": 0.05167102813720703,
+        "exec_time": 847143.0320001681,
+        "comm_time": 2880225.731131354
+    },
+    {
+        "expected_makespan": 257397.77976,
+        "makespan": 351304.2524681686,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.7235527038574219,
+        "exec_time": 847143.0320001679,
+        "comm_time": 2880078.114483038
+    },
+    {
+        "expected_makespan": 253846.71976,
+        "makespan": 238540.36474589794,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.24584078788757324,
+        "exec_time": 847143.0320000896,
+        "comm_time": 58148.33966263226
+    },
+    {
+        "expected_makespan": 238722.09986000002,
+        "makespan": 349443.36011244694,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 1.8557720184326172,
+        "exec_time": 847143.0320001679,
+        "comm_time": 2881216.206200718
+    },
+    {
+        "expected_makespan": 255856.52975999998,
+        "makespan": 349746.5401124469,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 202.24778032302856,
+        "exec_time": 847143.0320001683,
+        "comm_time": 2881217.347616687
+    },
+    {
+        "expected_makespan": 247764.40476,
+        "makespan": 247114.06561096257,
+        "tasks": "../thesis/experiment-real/workflows/Epigenomics_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING"
+        },
+        "sched_time": 39.70467734336853,
+        "exec_time": 847143.0320000808,
+        "comm_time": 59138.23591401124
+    },
+    {
+        "expected_makespan": 2759.9829048200004,
+        "makespan": 4670.924869410955,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.0755155086517334,
+        "exec_time": 4697.081000755061,
+        "comm_time": 86778.26251966524
+    },
+    {
+        "expected_makespan": 3113.2647048200006,
+        "makespan": 4670.924869410955,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT",
+            "data-transfer-mode": "EAGER"
+        },
+        "sched_time": 1.9103825092315674,
+        "exec_time": 4697.081000755061,
+        "comm_time": 86778.26251966524
+    },
+    {
+        "expected_makespan": 3113.2647048200006,
+        "makespan": 3709.5487554934252,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.2525959014892578,
+        "exec_time": 4697.081000731316,
+        "comm_time": 48123.59355770616
+    },
+    {
+        "expected_makespan": 2759.9829048200004,
+        "makespan": 4670.924869410962,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 2.107912063598633,
+        "exec_time": 4697.081000857081,
+        "comm_time": 86783.8073716653
+    },
+    {
+        "expected_makespan": 3113.2647048200006,
+        "makespan": 4670.924869410962,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA"
+        },
+        "sched_time": 479.3017213344574,
+        "exec_time": 4697.081000857081,
+        "comm_time": 86783.81542332076
+    },
+    {
+        "expected_makespan": 3113.2647048200006,
+        "makespan": 3733.6208377150797,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "data-transfer-mode": "EAGER_CACHING"
+        },
+        "sched_time": 41.27303647994995,
+        "exec_time": 4697.081000761571,
+        "comm_time": 48115.02068861363
+    },
+    {
+        "expected_makespan": 11359.6211442,
+        "makespan": 18003.475431431478,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "HEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.heft.HEFT"
+        },
+        "sched_time": 0.05843353271484375,
+        "exec_time": 44150.61600023683,
+        "comm_time": 416398.06513322436
+    },
+    {
+        "expected_makespan": 12038.741105200002,
+        "makespan": 18215.582715860197,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 4.269212007522583,
+        "exec_time": 44150.61600024106,
+        "comm_time": 413161.9857047761
+    },
+    {
+        "expected_makespan": 11659.103244200001,
+        "makespan": 11389.48484820065,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "EHEFT_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.eheft.EHEFT"
+        },
+        "sched_time": 0.24183940887451172,
+        "exec_time": 44150.61600013663,
+        "comm_time": 1499.7950016262762
+    },
+    {
+        "expected_makespan": 11343.787783700001,
+        "makespan": 17994.942104988986,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "LA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.lookahead.Lookahead"
+        },
+        "sched_time": 2.0169098377227783,
+        "exec_time": 44150.61600023177,
+        "comm_time": 413799.7396531186
+    },
+    {
+        "expected_makespan": 332.4964893594001,
+        "makespan": 464.1874750137475,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead",
+            "name": "ELA_caching"
+        },
+        "sched_time": 3651.7828419208527,
+        "exec_time": 2266.714000163669,
+        "comm_time": 5825.08408935361
+    },
+    {
+        "expected_makespan": 11642.998375200003,
+        "makespan": 11372.138987925637,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "ELA_caching",
+            "data-transfer-mode": "EAGER_CACHING",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 37.25668692588806,
+        "exec_time": 44150.61600013113,
+        "comm_time": 1471.6564439867184
+    },
+    {
+        "expected_makespan": 648.4677444999999,
+        "makespan": 712.6059734014372,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 1837.2745451927185,
+        "exec_time": 2266.7140009966374,
+        "comm_time": 4743.431733447851
+    },
+    {
+        "expected_makespan": 2333.2735048199997,
+        "makespan": 5134.987499593344,
+        "tasks": "../thesis/experiment-real/workflows/CyberShake_100_1.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 2886.5543274879456,
+        "exec_time": 4697.081000491598,
+        "comm_time": 125350.77627487118
+    },
+    {
+        "expected_makespan": 11941.228207200002,
+        "makespan": 17392.695816034124,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/simple_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 925.7490870952606,
+        "exec_time": 44150.61600025383,
+        "comm_time": 409230.3803160146
+    },
+    {
+        "expected_makespan": 22654.318999599982,
+        "makespan": 35590.81474905295,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 7000.294731616974,
+        "exec_time": 44150.61600014609,
+        "comm_time": 1614712.876361739
+    },
+    {
+        "expected_makespan": 22654.318999599982,
+        "makespan": 35165.65809067512,
+        "tasks": "../thesis/experiment-real/workflows/Inspiral_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 4997.755324840546,
+        "exec_time": 44150.61600014322,
+        "comm_time": 1629858.668342527
+    },
+    {
+        "expected_makespan": 416.09062894084514,
+        "makespan": 636.4377958875766,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_cluster_4.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 10258.446593284607,
+        "exec_time": 2266.714000384095,
+        "comm_time": 16624.52855899115
+    },
+    {
+        "expected_makespan": 361.3356518752519,
+        "makespan": 575.3125500716405,
+        "tasks": "../thesis/experiment-real/workflows/Montage_100_0025.dot",
+        "platform": "../thesis/experiment-real/platforms/platform_rack_8.xml",
+        "algorithm": {
+            "name": "ELA",
+            "data-transfer-mode": "EAGER",
+            "class": "pysimgrid.simdag.algorithms.enhanced_lookahead.EnhancedLookahead"
+        },
+        "sched_time": 8642.746689081192,
+        "exec_time": 2266.7140002975284,
+        "comm_time": 13106.455747073966
+    }
+]
